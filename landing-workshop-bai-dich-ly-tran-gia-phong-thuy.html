@@ -1,0 +1,1563 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Workshop Bài Dịch Lý 64 Quẻ | Trần Gia Phong Thuỷ</title>
+  <meta name="description" content="Đăng ký workshop trải nghiệm Bài Dịch Lý 64 Quẻ tối Thứ 6, 22/05/2026, 20:00–21:30. Học cách dùng bộ bài, hiểu lộ trình 03 buổi và mở thêm một kênh tăng thu nhập." />
+  <meta property="og:title" content="Workshop Bài Dịch Lý 64 Quẻ - Tự dùng, tự hiểu, tự mở thêm thu nhập" />
+  <meta property="og:description" content="Giữ chỗ buổi trải nghiệm 90 phút. Học viên đăng ký khóa 03 buổi nhận bộ bài Dịch Lý 64 quẻ trị giá 860.000đ." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root {
+      --bg: #120805;
+      --bg-2: #1e0e08;
+      --panel: rgba(255, 248, 229, 0.075);
+      --panel-strong: rgba(255, 248, 229, 0.125);
+      --text: #fff6df;
+      --muted: #e8d1aa;
+      --gold: #f4c95d;
+      --gold-2: #ffe5a0;
+      --red: #c63d25;
+      --red-2: #ff694f;
+      --green: #50d38a;
+      --dark: #080402;
+      --line: rgba(244, 201, 93, 0.22);
+      --shadow: 0 28px 85px rgba(0, 0, 0, 0.45);
+      --radius: 28px;
+      --radius-sm: 18px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(244, 201, 93, 0.18), transparent 25%),
+        radial-gradient(circle at 86% 14%, rgba(198, 61, 37, 0.22), transparent 30%),
+        radial-gradient(circle at 50% 90%, rgba(244, 201, 93, 0.12), transparent 28%),
+        linear-gradient(135deg, #0c0403 0%, #1d0b07 44%, #090403 100%);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.55;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+      background-size: 72px 72px;
+      mask-image: radial-gradient(circle at center, black, transparent 75%);
+      z-index: 0;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .page {
+      position: relative;
+      z-index: 1;
+    }
+
+    .container {
+      width: min(var(--max), calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .announcement {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      backdrop-filter: blur(18px);
+      background: linear-gradient(90deg, rgba(8, 4, 2, 0.92), rgba(44, 14, 8, 0.88));
+      border-bottom: 1px solid var(--line);
+    }
+
+    .announcement-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 10px 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(244, 201, 93, 0.08);
+      color: var(--gold-2);
+      white-space: nowrap;
+    }
+
+    .top-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 16px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--gold), #fff0b8);
+      color: #2d1209;
+      font-weight: 900;
+      box-shadow: 0 12px 34px rgba(244, 201, 93, 0.2);
+      white-space: nowrap;
+    }
+
+    .hero {
+      position: relative;
+      padding: 76px 0 46px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(330px, 0.95fr);
+      gap: 46px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      color: var(--gold-2);
+      font-weight: 800;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 38px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold), transparent);
+      border-radius: 99px;
+    }
+
+    h1, h2, h3, p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 18px;
+      font-size: clamp(42px, 7vw, 82px);
+      line-height: 0.96;
+      letter-spacing: -0.065em;
+      font-weight: 950;
+    }
+
+    .gradient-text {
+      background: linear-gradient(90deg, #fff8dd 0%, var(--gold) 45%, #ff9d73 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 42px rgba(244, 201, 93, 0.12);
+    }
+
+    .subhead {
+      max-width: 700px;
+      color: var(--muted);
+      font-size: clamp(17px, 2.1vw, 22px);
+      margin-bottom: 24px;
+    }
+
+    .highlight {
+      color: #fff;
+      font-weight: 900;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin: 30px 0 20px;
+    }
+
+    .btn {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 58px;
+      padding: 0 24px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-weight: 950;
+      letter-spacing: -0.01em;
+      cursor: pointer;
+      transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+      overflow: hidden;
+    }
+
+    .btn:hover { transform: translateY(-2px); }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--gold), #fff0b8 52%, #ffba5f);
+      color: #321407;
+      box-shadow: 0 22px 55px rgba(244, 201, 93, 0.28);
+    }
+
+    .btn-primary::after {
+      content: "";
+      position: absolute;
+      inset: -80% -20%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.62), transparent);
+      transform: rotate(20deg) translateX(-140%);
+      animation: shine 3.8s ease-in-out infinite;
+    }
+
+    @keyframes shine {
+      0%, 50% { transform: rotate(20deg) translateX(-140%); }
+      72%, 100% { transform: rotate(20deg) translateX(140%); }
+    }
+
+    .btn-secondary {
+      color: var(--gold-2);
+      border-color: var(--line);
+      background: rgba(255, 255, 255, 0.055);
+      backdrop-filter: blur(12px);
+    }
+
+    .fineprint {
+      color: rgba(232, 209, 170, .84);
+      font-size: 14px;
+    }
+
+    .fineprint strong {
+      color: var(--gold-2);
+    }
+
+    .hero-proof {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .proof-item {
+      flex: 1 1 170px;
+      min-width: 165px;
+      padding: 14px 15px;
+      border: 1px solid rgba(244, 201, 93, .18);
+      border-radius: var(--radius-sm);
+      background: rgba(255, 248, 229, 0.065);
+    }
+
+    .proof-item b {
+      display: block;
+      color: #fff7dc;
+      margin-bottom: 3px;
+      font-size: 15px;
+    }
+
+    .proof-item span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .visual-wrap {
+      position: relative;
+      min-height: 610px;
+      perspective: 1200px;
+    }
+
+    .aura {
+      position: absolute;
+      width: 430px;
+      height: 430px;
+      border-radius: 50%;
+      inset: 80px 0 auto auto;
+      background: radial-gradient(circle, rgba(244, 201, 93, 0.28), rgba(198, 61, 37, 0.16) 42%, transparent 70%);
+      filter: blur(6px);
+      animation: pulse 4.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: .72; transform: scale(.96); }
+      50% { opacity: 1; transform: scale(1.04); }
+    }
+
+    .deck-stage {
+      position: relative;
+      height: 450px;
+      margin-top: 22px;
+    }
+
+    .card {
+      position: absolute;
+      width: 208px;
+      height: 326px;
+      border-radius: 24px;
+      padding: 20px;
+      border: 1px solid rgba(255, 236, 163, .56);
+      background:
+        linear-gradient(145deg, rgba(255, 246, 208, .98), rgba(244, 201, 93, .8)),
+        radial-gradient(circle at 50% 18%, rgba(255, 255, 255, .8), transparent 30%);
+      color: #3a1708;
+      box-shadow: 0 42px 80px rgba(0,0,0,.42);
+      transform-style: preserve-3d;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 12px;
+      border-radius: 18px;
+      border: 1px solid rgba(58, 23, 8, .28);
+      pointer-events: none;
+    }
+
+    .card .num {
+      font-weight: 950;
+      letter-spacing: .06em;
+      font-size: 13px;
+      opacity: .82;
+    }
+
+    .card .symbol {
+      display: grid;
+      place-items: center;
+      height: 160px;
+      font-size: 82px;
+      line-height: 1;
+      margin: 28px 0 8px;
+      text-shadow: 0 7px 0 rgba(58, 23, 8, .08);
+    }
+
+    .card .card-title {
+      font-weight: 950;
+      text-align: center;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+    }
+
+    .card .card-sub {
+      text-align: center;
+      margin-top: 4px;
+      opacity: .72;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .card-one {
+      left: 22px;
+      top: 70px;
+      transform: rotate(-12deg) translateZ(20px);
+      animation: floatOne 6s ease-in-out infinite;
+    }
+
+    .card-two {
+      left: 168px;
+      top: 18px;
+      transform: rotate(8deg) translateZ(60px);
+      z-index: 2;
+      animation: floatTwo 5.4s ease-in-out infinite;
+    }
+
+    .card-three {
+      left: 314px;
+      top: 92px;
+      transform: rotate(18deg) translateZ(10px);
+      animation: floatThree 6.4s ease-in-out infinite;
+    }
+
+    @keyframes floatOne {
+      0%, 100% { transform: rotate(-12deg) translateY(0) translateZ(20px); }
+      50% { transform: rotate(-10deg) translateY(-12px) translateZ(20px); }
+    }
+
+    @keyframes floatTwo {
+      0%, 100% { transform: rotate(8deg) translateY(0) translateZ(60px); }
+      50% { transform: rotate(10deg) translateY(-18px) translateZ(60px); }
+    }
+
+    @keyframes floatThree {
+      0%, 100% { transform: rotate(18deg) translateY(0) translateZ(10px); }
+      50% { transform: rotate(16deg) translateY(-10px) translateZ(10px); }
+    }
+
+    .countdown-card {
+      position: absolute;
+      left: 30px;
+      right: 0;
+      bottom: 0;
+      z-index: 4;
+      padding: 24px;
+      border: 1px solid rgba(244, 201, 93, .28);
+      border-radius: var(--radius);
+      background: linear-gradient(145deg, rgba(23, 9, 5, .92), rgba(78, 22, 12, .76));
+      backdrop-filter: blur(20px);
+      box-shadow: var(--shadow);
+    }
+
+    .count-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 14px;
+      color: var(--gold-2);
+      font-weight: 950;
+    }
+
+    .count-title small {
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .count-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+
+    .count-box {
+      text-align: center;
+      padding: 14px 7px;
+      border-radius: 18px;
+      background: rgba(255, 248, 229, .075);
+      border: 1px solid rgba(255, 248, 229, .12);
+    }
+
+    .count-box strong {
+      display: block;
+      font-size: clamp(24px, 4vw, 38px);
+      line-height: 1;
+      color: #fff;
+      letter-spacing: -0.04em;
+    }
+
+    .count-box span {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .section {
+      padding: 64px 0;
+      position: relative;
+    }
+
+    .section-heading {
+      max-width: 790px;
+      margin-bottom: 34px;
+    }
+
+    .section-kicker {
+      display: inline-flex;
+      margin-bottom: 12px;
+      color: var(--gold);
+      font-weight: 950;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    h2 {
+      margin-bottom: 14px;
+      font-size: clamp(32px, 5vw, 58px);
+      line-height: 1.02;
+      letter-spacing: -0.055em;
+    }
+
+    .section-heading p {
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .panel {
+      position: relative;
+      padding: 26px;
+      border: 1px solid rgba(244, 201, 93, .18);
+      border-radius: var(--radius);
+      background: linear-gradient(145deg, rgba(255, 248, 229, .087), rgba(255, 248, 229, .045));
+      box-shadow: 0 22px 60px rgba(0, 0, 0, .18);
+      overflow: hidden;
+    }
+
+    .panel::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 18% 0%, rgba(244, 201, 93, .12), transparent 36%);
+      pointer-events: none;
+    }
+
+    .panel > * { position: relative; z-index: 1; }
+
+    .icon {
+      width: 52px;
+      height: 52px;
+      display: grid;
+      place-items: center;
+      border-radius: 18px;
+      background: rgba(244, 201, 93, .13);
+      border: 1px solid rgba(244, 201, 93, .22);
+      color: var(--gold-2);
+      font-size: 24px;
+      margin-bottom: 18px;
+    }
+
+    .panel h3 {
+      font-size: 22px;
+      line-height: 1.12;
+      letter-spacing: -0.03em;
+      margin-bottom: 10px;
+    }
+
+    .panel p, .panel li {
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    .pain-strip {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 22px;
+      align-items: stretch;
+    }
+
+    .warning-panel {
+      background:
+        linear-gradient(145deg, rgba(198, 61, 37, .22), rgba(255, 248, 229, .06)),
+        rgba(255,255,255,.04);
+    }
+
+    .check-list {
+      list-style: none;
+      padding: 0;
+      margin: 18px 0 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .check-list li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .check-list li::before {
+      content: "✓";
+      flex: 0 0 24px;
+      width: 24px;
+      height: 24px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: rgba(80, 211, 138, .14);
+      color: var(--green);
+      font-weight: 950;
+      margin-top: 1px;
+    }
+
+    .no-list li::before {
+      content: "×";
+      background: rgba(255, 105, 79, .13);
+      color: var(--red-2);
+    }
+
+    .timeline {
+      position: relative;
+      display: grid;
+      gap: 16px;
+    }
+
+    .session {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 18px;
+      padding: 22px;
+      border-radius: 24px;
+      border: 1px solid rgba(244, 201, 93, .17);
+      background: rgba(255, 248, 229, .06);
+    }
+
+    .session-badge {
+      display: grid;
+      place-items: center;
+      align-content: center;
+      min-height: 92px;
+      border-radius: 20px;
+      background: linear-gradient(145deg, rgba(244, 201, 93, .95), rgba(255, 231, 162, .92));
+      color: #351306;
+      font-weight: 950;
+      text-align: center;
+      box-shadow: 0 16px 34px rgba(244, 201, 93, .15);
+    }
+
+    .session-badge span {
+      display: block;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .session-badge b {
+      display: block;
+      font-size: 36px;
+      line-height: 1;
+      letter-spacing: -0.05em;
+    }
+
+    .session h3 {
+      margin-bottom: 6px;
+    }
+
+    .session p {
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    .offer {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 24px;
+      align-items: center;
+      padding: 34px;
+      border-radius: 34px;
+      border: 1px solid rgba(244, 201, 93, .28);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(244, 201, 93, .18), transparent 28%),
+        linear-gradient(145deg, rgba(64, 17, 9, .86), rgba(18, 8, 5, .94));
+      box-shadow: var(--shadow);
+    }
+
+    .price-card {
+      padding: 28px;
+      border-radius: 28px;
+      background: rgba(255, 248, 229, .075);
+      border: 1px solid rgba(255, 248, 229, .15);
+    }
+
+    .price-label {
+      color: var(--gold-2);
+      font-weight: 950;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-size: 13px;
+    }
+
+    .price {
+      margin: 8px 0 10px;
+      font-size: clamp(40px, 6vw, 68px);
+      line-height: .95;
+      letter-spacing: -0.06em;
+      font-weight: 950;
+    }
+
+    .bonus {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 14px;
+      padding: 10px 12px;
+      border-radius: 999px;
+      background: rgba(80, 211, 138, .12);
+      color: #c9ffdf;
+      border: 1px solid rgba(80, 211, 138, .22);
+      font-weight: 900;
+    }
+
+    .offer ul {
+      padding: 0;
+      margin: 20px 0 0;
+      list-style: none;
+      display: grid;
+      gap: 12px;
+    }
+
+    .offer li {
+      display: flex;
+      gap: 10px;
+      color: var(--muted);
+    }
+
+    .offer li::before {
+      content: "✦";
+      color: var(--gold);
+      flex: 0 0 auto;
+    }
+
+    .bonus-visual {
+      position: relative;
+      min-height: 310px;
+      display: grid;
+      place-items: center;
+    }
+
+    .deck-box {
+      width: min(360px, 90%);
+      min-height: 240px;
+      border-radius: 30px;
+      padding: 28px;
+      color: #361609;
+      background:
+        linear-gradient(145deg, #fff2b9, #f2b94f 55%, #b94227),
+        radial-gradient(circle at 30% 15%, rgba(255,255,255,.82), transparent 34%);
+      box-shadow: 0 34px 70px rgba(0,0,0,.34);
+      transform: rotate(-3deg);
+      border: 1px solid rgba(255,255,255,.42);
+    }
+
+    .deck-box .deck-name {
+      font-weight: 950;
+      font-size: 29px;
+      line-height: 1.02;
+      letter-spacing: -0.045em;
+    }
+
+    .deck-box .deck-symbol {
+      font-size: 72px;
+      line-height: 1;
+      margin: 22px 0 18px;
+    }
+
+    .deck-box .deck-value {
+      display: inline-flex;
+      padding: 9px 12px;
+      border-radius: 999px;
+      background: rgba(54, 22, 9, .12);
+      font-weight: 950;
+    }
+
+    .deck-shadow-card {
+      position: absolute;
+      width: 180px;
+      height: 230px;
+      border-radius: 26px;
+      background: rgba(255, 237, 172, .18);
+      border: 1px solid rgba(255, 237, 172, .24);
+      transform: rotate(13deg) translate(90px, 20px);
+      z-index: -1;
+    }
+
+    .audience-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 22px;
+    }
+
+    .audience-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .tag {
+      padding: 10px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(244, 201, 93, .2);
+      background: rgba(255, 248, 229, .065);
+      color: var(--gold-2);
+      font-weight: 850;
+      font-size: 14px;
+    }
+
+    .faq {
+      display: grid;
+      gap: 12px;
+    }
+
+    details {
+      border: 1px solid rgba(244, 201, 93, .17);
+      border-radius: 20px;
+      background: rgba(255, 248, 229, .058);
+      padding: 18px 20px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 950;
+      color: #fff7dc;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::after {
+      content: "+";
+      float: right;
+      color: var(--gold);
+      font-size: 24px;
+      line-height: 1;
+      margin-left: 12px;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    details p {
+      color: var(--muted);
+      margin: 12px 0 0;
+    }
+
+    .form-wrap {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .form-card {
+      padding: 30px;
+      border-radius: 34px;
+      border: 1px solid rgba(244, 201, 93, .24);
+      background: linear-gradient(145deg, rgba(255, 248, 229, .105), rgba(255, 248, 229, .055));
+      box-shadow: var(--shadow);
+    }
+
+    .field {
+      margin-bottom: 14px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 7px;
+      font-size: 13px;
+      color: var(--gold-2);
+      font-weight: 900;
+      letter-spacing: .02em;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      min-height: 52px;
+      border: 1px solid rgba(244, 201, 93, .22);
+      border-radius: 16px;
+      background: rgba(6, 3, 2, .45);
+      color: #fff9e6;
+      padding: 0 14px;
+      outline: none;
+      font: inherit;
+    }
+
+    textarea {
+      min-height: 96px;
+      resize: vertical;
+      padding-top: 13px;
+    }
+
+    input::placeholder, textarea::placeholder { color: rgba(232, 209, 170, .54); }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: rgba(244, 201, 93, .65);
+      box-shadow: 0 0 0 4px rgba(244, 201, 93, .1);
+    }
+
+    .submit-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .success {
+      display: none;
+      margin-top: 16px;
+      padding: 14px 15px;
+      border-radius: 18px;
+      border: 1px solid rgba(80, 211, 138, .24);
+      background: rgba(80, 211, 138, .1);
+      color: #caffdf;
+      font-weight: 850;
+    }
+
+    .success.show {
+      display: block;
+    }
+
+    .hotline-card {
+      display: grid;
+      gap: 16px;
+    }
+
+    .mini-stat {
+      padding: 22px;
+      border-radius: 24px;
+      background: rgba(255, 248, 229, .06);
+      border: 1px solid rgba(244, 201, 93, .17);
+    }
+
+    .mini-stat b {
+      display: block;
+      color: var(--gold-2);
+      font-size: 28px;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      margin-bottom: 6px;
+    }
+
+    .mini-stat span {
+      color: var(--muted);
+    }
+
+    .final-cta {
+      text-align: center;
+      padding: 56px 28px;
+      border-radius: 36px;
+      border: 1px solid rgba(244, 201, 93, .28);
+      background:
+        radial-gradient(circle at 50% 0%, rgba(244, 201, 93, .18), transparent 36%),
+        linear-gradient(145deg, rgba(88, 23, 12, .76), rgba(16, 7, 4, .94));
+      box-shadow: var(--shadow);
+    }
+
+    .final-cta h2 {
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .final-cta p {
+      max-width: 750px;
+      margin: 0 auto 26px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    footer {
+      padding: 40px 0 70px;
+      color: rgba(232, 209, 170, .72);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .floating-cta {
+      position: fixed;
+      z-index: 25;
+      right: 18px;
+      bottom: 18px;
+      display: none;
+      gap: 10px;
+      align-items: center;
+      padding: 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(244, 201, 93, .22);
+      background: rgba(12, 5, 3, .78);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 20px 50px rgba(0,0,0,.34);
+    }
+
+    .floating-cta .mini-count {
+      padding: 0 10px;
+      color: var(--gold-2);
+      font-weight: 950;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .floating-cta a {
+      min-height: 44px;
+      padding: 0 16px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 1020px) {
+      .hero-grid, .offer, .audience-grid, .form-wrap, .pain-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .visual-wrap {
+        min-height: 530px;
+        max-width: 620px;
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .card-one { left: 5%; }
+      .card-two { left: 31%; }
+      .card-three { left: 57%; }
+      .countdown-card { left: 0; }
+    }
+
+    @media (max-width: 720px) {
+      .container { width: min(100% - 24px, var(--max)); }
+
+      .announcement-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .top-cta {
+        width: 100%;
+      }
+
+      .hero {
+        padding-top: 44px;
+      }
+
+      h1 {
+        font-size: clamp(38px, 14vw, 58px);
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+      .visual-wrap {
+        min-height: 560px;
+      }
+
+      .deck-stage {
+        transform: scale(.82);
+        transform-origin: top center;
+        margin-left: -30px;
+      }
+
+      .countdown-card {
+        bottom: 36px;
+      }
+
+      .count-grid {
+        gap: 7px;
+      }
+
+      .count-box {
+        padding: 12px 4px;
+        border-radius: 14px;
+      }
+
+      .session {
+        grid-template-columns: 1fr;
+      }
+
+      .session-badge {
+        min-height: 76px;
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+      }
+
+      .panel, .form-card, .offer {
+        padding: 22px;
+        border-radius: 24px;
+      }
+
+      .section {
+        padding: 46px 0;
+      }
+
+      .floating-cta {
+        left: 10px;
+        right: 10px;
+        justify-content: space-between;
+      }
+
+      .floating-cta .mini-count {
+        display: none;
+      }
+
+      .floating-cta a {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="announcement">
+      <div class="container announcement-inner">
+        <div class="pill">🔥 Tối Thứ 6 · 22/05/2026 · 20:00–21:30</div>
+        <div>Workshop trải nghiệm 90 phút: hiểu cách dùng Bài Dịch Lý 64 Quẻ, sau đó chọn lộ trình 03 buổi thực hành.</div>
+        <a class="top-cta" href="#dang-ky">Giữ chỗ ngay</a>
+      </div>
+    </div>
+
+    <header class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Trần Gia Phong Thuỷ</div>
+          <h1>
+            Workshop <span class="gradient-text">Bài Dịch Lý 64 Quẻ</span>
+          </h1>
+          <p class="subhead">
+            Một buổi trải nghiệm trực tuyến giúp bạn biết cách tiếp cận bộ bài như một
+            <span class="highlight">công cụ tự vấn – ra quyết định – tạo giá trị tư vấn</span>,
+            không hù dọa, không thần bí hóa, không ép mua.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#dang-ky">⚡ Đăng ký giữ chỗ buổi 22/05</a>
+            <a class="btn btn-secondary" href="#offer">Xem quà tặng & lộ trình 03 buổi</a>
+          </div>
+
+          <p class="fineprint">
+            Học viên đăng ký <strong>khóa 03 buổi thực hành</strong> được tặng bộ bài Dịch Lý 64 quẻ trị giá
+            <strong>860.000đ</strong>. Quà tặng dành cho học viên, không phát đại trà.
+          </p>
+
+          <div class="hero-proof">
+            <div class="proof-item">
+              <b>90 phút rõ đường</b>
+              <span>Hiểu đúng trước khi quyết định học sâu.</span>
+            </div>
+            <div class="proof-item">
+              <b>03 buổi thực hành</b>
+              <span>Học để dùng được, không học cho hay.</span>
+            </div>
+            <div class="proof-item">
+              <b>Mở thêm thu nhập</b>
+              <span>Biết cách đóng gói kỹ năng thành giá trị.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual-wrap" aria-label="Minh họa bộ bài Dịch Lý 64 quẻ">
+          <div class="aura"></div>
+          <div class="deck-stage">
+            <div class="card card-one">
+              <div class="num">QUẺ 01</div>
+              <div class="symbol">☰</div>
+              <div class="card-title">Tự hiểu</div>
+              <div class="card-sub">Nhìn lại tình huống</div>
+            </div>
+            <div class="card card-two">
+              <div class="num">64 QUẺ</div>
+              <div class="symbol">☯</div>
+              <div class="card-title">Dịch Lý ứng dụng</div>
+              <div class="card-sub">Dễ cầm · Dễ học · Dễ dùng</div>
+            </div>
+            <div class="card card-three">
+              <div class="num">QUẺ 02</div>
+              <div class="symbol">☷</div>
+              <div class="card-title">Tạo giá trị</div>
+              <div class="card-sub">Mở thêm kênh thu nhập</div>
+            </div>
+          </div>
+
+          <div class="countdown-card">
+            <div class="count-title">
+              <span>Workshop bắt đầu sau</span>
+              <small>20:00 · 22/05/2026</small>
+            </div>
+            <div class="count-grid" id="countdown-main">
+              <div class="count-box"><strong id="days">00</strong><span>Ngày</span></div>
+              <div class="count-box"><strong id="hours">00</strong><span>Giờ</span></div>
+              <div class="count-box"><strong id="minutes">00</strong><span>Phút</span></div>
+              <div class="count-box"><strong id="seconds">00</strong><span>Giây</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container pain-strip">
+          <div class="panel warning-panel">
+            <span class="section-kicker">Vì sao nên tham gia?</span>
+            <h2>Bạn không cần thêm một lời phán. Bạn cần một cách nhìn rõ hơn.</h2>
+            <p>
+              Nhiều người đứng trước chuyện công việc, tiền bạc, quan hệ, đổi hướng làm ăn… rồi đi hỏi khắp nơi.
+              Càng hỏi càng rối vì thiếu một hệ quy chiếu để tự soi và ra quyết định.
+            </p>
+          </div>
+          <div class="panel">
+            <div class="icon">✦</div>
+            <h3>Workshop này dành cho người muốn học thật – dùng thật.</h3>
+            <ul class="check-list">
+              <li>Người mới muốn hiểu Bài Dịch Lý theo cách dễ tiếp cận.</li>
+              <li>Người đang cần công cụ tự vấn trước quyết định quan trọng.</li>
+              <li>Người muốn có một kỹ năng tư vấn sạch, sòng phẳng, có thể tạo thêm thu nhập.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="nhan-duoc-gi">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-kicker">Sau buổi 90 phút</span>
+            <h2>Bạn sẽ thấy rõ mình có nên học sâu khóa 03 buổi hay không.</h2>
+            <p>Buổi trải nghiệm không bán mơ hồ. Mục tiêu là cho bạn nhìn được phương pháp, cách dùng và giá trị thực tế của bộ bài.</p>
+          </div>
+
+          <div class="grid-3">
+            <div class="panel">
+              <div class="icon">01</div>
+              <h3>Biết cách đặt câu hỏi đúng</h3>
+              <p>Không hỏi kiểu cầu may. Bạn học cách biến một vấn đề mơ hồ thành câu hỏi đủ rõ để nhìn ra hướng xử lý.</p>
+            </div>
+            <div class="panel">
+              <div class="icon">02</div>
+              <h3>Hiểu bộ bài như công cụ</h3>
+              <p>Bộ bài không phải “phép màu”. Nó là đồ nghề giúp bạn soi tình huống, đọc tín hiệu và giảm quyết định sai.</p>
+            </div>
+            <div class="panel">
+              <div class="icon">03</div>
+              <h3>Thấy lộ trình mở thu nhập</h3>
+              <p>Không cần tự xưng “thầy”. Bạn hiểu cách đóng gói kỹ năng thành buổi tư vấn, nội dung, dịch vụ hoặc nghề tay trái sạch.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="lo-trinh">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-kicker">Lộ trình khóa chính</span>
+            <h2>03 buổi thực hành: học xong biết dùng và biết cách tạo thêm giá trị.</h2>
+            <p>Đây là phần dành cho học viên quyết định đăng ký khóa sau buổi trải nghiệm.</p>
+          </div>
+
+          <div class="timeline">
+            <div class="session">
+              <div class="session-badge"><span>Buổi</span><b>1</b></div>
+              <div>
+                <h3>Nắm nền tảng bộ bài Dịch Lý 64 quẻ</h3>
+                <p>Hiểu cấu trúc bộ bài, cách đọc ý nghĩa, cách đặt câu hỏi và ranh giới khi tự vấn cho bản thân.</p>
+              </div>
+            </div>
+            <div class="session">
+              <div class="session-badge"><span>Buổi</span><b>2</b></div>
+              <div>
+                <h3>Thực hành luận tình huống đời sống – công việc</h3>
+                <p>Thực hành đọc quẻ theo tình huống cụ thể: đổi việc, làm ăn, hợp tác, định hướng cá nhân, tránh học lý thuyết khô.</p>
+              </div>
+            </div>
+            <div class="session">
+              <div class="session-badge"><span>Buổi</span><b>3</b></div>
+              <div>
+                <h3>Đóng gói kỹ năng thành kênh tăng thu nhập</h3>
+                <p>Biết cách tạo buổi tư vấn, định giá, làm nội dung, giữ đạo đức nghề và xây niềm tin trước khi bán.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="offer">
+        <div class="container">
+          <div class="offer">
+            <div class="price-card">
+              <div class="price-label">Offer khóa 03 buổi</div>
+              <div class="price">2.000.000đ</div>
+              <p class="fineprint">Học phí cho lộ trình thực hành sau buổi trải nghiệm. Ưu tiên lớp giới hạn để đảm bảo hướng dẫn sát.</p>
+              <div class="bonus">🎁 Tặng bộ bài trị giá 860.000đ</div>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="#dang-ky">Giữ chỗ trước 22/05</a>
+              </div>
+            </div>
+
+            <div>
+              <span class="section-kicker">Không phát quà ồ ạt</span>
+              <h2>Được tặng “đồ nghề” để học là làm được.</h2>
+              <p class="subhead" style="font-size:18px;margin-bottom:0;">
+                Bộ bài là công cụ đồng hành trong quá trình học, giúp bạn không học chay và có thể thực hành ngay sau từng buổi.
+              </p>
+              <ul>
+                <li>Nhận bộ bài Dịch Lý 64 quẻ trị giá 860.000đ khi đăng ký khóa 03 buổi.</li>
+                <li>Học cách dùng cho bản thân trước, sau đó mới học cách tạo thêm thu nhập.</li>
+                <li>Thông điệp minh bạch: không hứa đổi vận, không hù dọa, không ép mua.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="bonus-visual">
+            <div class="deck-shadow-card"></div>
+            <div class="deck-box">
+              <div class="deck-name">Bộ bài Dịch Lý 64 Quẻ</div>
+              <div class="deck-symbol">☯</div>
+              <div class="deck-value">Giá trị quà tặng: 860.000đ</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container audience-grid">
+          <div class="panel">
+            <span class="section-kicker">Ai nên có mặt tối 22/05?</span>
+            <h2>Đặc biệt phù hợp với 3 nhóm người.</h2>
+            <div class="audience-tags">
+              <span class="tag">Người muốn nghề tay trái sạch</span>
+              <span class="tag">Người đang cần ra quyết định</span>
+              <span class="tag">Người mới muốn học dễ dùng</span>
+              <span class="tag">Người thích tự vấn có phương pháp</span>
+              <span class="tag">Người làm tư vấn / nội dung</span>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="icon">⚠</div>
+            <h3>Buổi này không dành cho bạn nếu…</h3>
+            <ul class="check-list no-list">
+              <li>Bạn muốn nghe lời phán chắc chắn 100%.</li>
+              <li>Bạn muốn “mẹo làm giàu nhanh” mà không luyện tập.</li>
+              <li>Bạn chỉ săn quà tặng nhưng không có ý định học nghiêm túc.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-kicker">Nguyên tắc triển khai</span>
+            <h2>Minh bạch để khách tin trước khi chốt.</h2>
+            <p>Thông điệp xuyên suốt của workshop: tạo trải nghiệm wow, xây niềm tin trước khi bán và định vị bộ bài như một công cụ giá trị cao.</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="panel">
+              <div class="icon">✓</div>
+              <h3>Phải làm</h3>
+              <ul class="check-list">
+                <li>Tạo trải nghiệm rõ ràng, dễ hiểu, có demo thực tế.</li>
+                <li>Xây niềm tin bằng cách nói sòng phẳng về lợi ích và giới hạn.</li>
+                <li>Định vị bộ bài là công cụ học tập – tư vấn – tự vấn có giá trị.</li>
+              </ul>
+            </div>
+            <div class="panel warning-panel">
+              <div class="icon">×</div>
+              <h3>Không làm</h3>
+              <ul class="check-list no-list">
+                <li>Không tặng free ồ ạt để hút sai tệp.</li>
+                <li>Không quảng cáo mập mờ hoặc thổi phồng huyền học.</li>
+                <li>Không ép khách mua khi họ chưa hiểu workshop có phù hợp không.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-kicker">Câu hỏi thường gặp</span>
+            <h2>Trước khi đăng ký, bạn có thể đang thắc mắc…</h2>
+          </div>
+
+          <div class="faq">
+            <details open>
+              <summary>Người mới hoàn toàn có học được không?</summary>
+              <p>Có. Workshop được thiết kế để người mới hiểu cách tiếp cận trước, sau đó khóa 03 buổi mới đi vào thực hành theo tình huống.</p>
+            </details>
+            <details>
+              <summary>Tôi không có “căn” thì có học được không?</summary>
+              <p>Có. Đây là hướng học ứng dụng, dùng bộ bài như công cụ tự vấn và đọc tình huống, không yêu cầu bạn phải có nền tảng huyền học trước.</p>
+            </details>
+            <details>
+              <summary>Workshop có dạy kiếm tiền ngay không?</summary>
+              <p>Buổi trải nghiệm giúp bạn hiểu hướng đi. Trong khóa 03 buổi, buổi 3 tập trung vào cách đóng gói kỹ năng thành kênh tăng thu nhập một cách sạch và thực tế.</p>
+            </details>
+            <details>
+              <summary>Điều kiện nhận bộ bài trị giá 860.000đ là gì?</summary>
+              <p>Bộ bài là quà tặng dành cho học viên đăng ký khóa 03 buổi. Không phải quà phát đại trà cho mọi người chỉ tham gia buổi trải nghiệm.</p>
+            </details>
+            <details>
+              <summary>Sau khi đăng ký giữ chỗ thì tôi nhận link học ở đâu?</summary>
+              <p>Sau khi điền form, bạn vào nhóm Zalo nhận thông tin để được nhắc lịch, nhận link tham gia và được hỗ trợ xác nhận trước giờ bắt đầu.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="dang-ky">
+        <div class="container form-wrap">
+          <div>
+            <span class="section-kicker">Đăng ký giữ chỗ</span>
+            <h2>Giữ chỗ buổi trải nghiệm tối Thứ 6 – 22/05/2026.</h2>
+            <p class="subhead" style="font-size:18px;">
+              Điền thông tin và vào nhóm Zalo để nhận nhắc lịch, link tham gia và hướng dẫn chuẩn bị trước workshop.
+            </p>
+
+            <div class="hotline-card">
+              <div class="mini-stat">
+                <b>20:00–21:30</b>
+                <span>Thời lượng 90 phút, tối Thứ 6 ngày 22/05/2026.</span>
+              </div>
+              <div class="mini-stat">
+                <b>100 suất</b>
+                <span>Ưu tiên học viên nghiêm túc muốn theo lộ trình 03 buổi.</span>
+              </div>
+              <div class="mini-stat">
+                <b>860.000đ</b>
+                <span>Giá trị bộ bài tặng kèm cho học viên đăng ký khóa 03 buổi.</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="form-card" id="leadForm">
+            <div class="field">
+              <label for="name">Họ và tên</label>
+              <input id="name" name="name" type="text" placeholder="Ví dụ: Nguyễn Anh Minh" required />
+            </div>
+            <div class="field">
+              <label for="phone">Số điện thoại / Zalo</label>
+              <input id="phone" name="phone" type="tel" placeholder="Ví dụ: 09xx xxx xxx" required />
+            </div>
+            <div class="field">
+              <label for="goal">Bạn quan tâm điều gì nhất?</label>
+              <select id="goal" name="goal" required>
+                <option value="">Chọn một mục</option>
+                <option>Muốn học để tự dùng cho bản thân</option>
+                <option>Muốn có công cụ ra quyết định</option>
+                <option>Muốn mở thêm nghề tay trái / thu nhập</option>
+                <option>Muốn tìm hiểu bộ bài trước khi đăng ký khóa 03 buổi</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="note">Câu hỏi bạn muốn được giải đáp trong workshop</label>
+              <textarea id="note" name="note" placeholder="Ghi ngắn gọn vấn đề bạn đang quan tâm..."></textarea>
+            </div>
+
+            <div class="submit-row">
+              <button type="submit" class="btn btn-primary">Hoàn tất & vào nhóm Zalo</button>
+              <a class="btn btn-secondary" href="https://zalo.me/g/metc8pjimofspkcynl0k" target="_blank" rel="noopener">Vào Zalo ngay</a>
+            </div>
+
+            <div class="success" id="successBox">
+              Đã ghi nhận thông tin trên trang demo. Bước tiếp theo: vào nhóm Zalo để xác nhận giữ chỗ và nhận link tham gia.
+            </div>
+
+            <p class="fineprint" style="margin-top:14px;">
+              Trang demo tĩnh: khi đưa lên website thật, hãy nối form với Google Sheet, CRM hoặc hệ thống thanh toán để thu lead tự động.
+            </p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="final-cta">
+            <span class="section-kicker">Chốt ngay khi còn nóng</span>
+            <h2>Đừng chỉ nghe về Dịch Lý. Hãy trải nghiệm cách dùng nó trong một buổi rõ ràng.</h2>
+            <p>
+              Tối Thứ 6, 22/05/2026, 20:00–21:30. Vào phòng đúng giờ, xem demo, hỏi trực tiếp và quyết định có theo lộ trình 03 buổi hay không.
+            </p>
+            <div class="hero-actions" style="justify-content:center;">
+              <a class="btn btn-primary" href="#dang-ky">Tôi muốn giữ chỗ ngay</a>
+              <a class="btn btn-secondary" href="https://zalo.me/g/metc8pjimofspkcynl0k" target="_blank" rel="noopener">Nhận thông tin qua Zalo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="floating-cta" id="floatingCta">
+      <div class="mini-count" id="miniCount">Còn -- ngày</div>
+      <a class="btn btn-primary" href="#dang-ky">Giữ chỗ</a>
+    </div>
+
+    <footer>
+      <div class="container">
+        © 2026 Trần Gia Phong Thuỷ · Workshop Bài Dịch Lý 64 Quẻ · Thông tin trên trang có thể được điều chỉnh khi công bố lịch khóa chính thức.
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const ZALO_GROUP_URL = "https://zalo.me/g/metc8pjimofspkcynl0k";
+    const targetDate = new Date("2026-05-22T20:00:00+07:00");
+
+    const pad = (num) => String(num).padStart(2, "0");
+
+    function updateCountdown() {
+      const now = new Date();
+      let diff = targetDate - now;
+
+      const miniCount = document.getElementById("miniCount");
+
+      if (diff <= 0) {
+        ["days", "hours", "minutes", "seconds"].forEach((id) => {
+          document.getElementById(id).textContent = "00";
+        });
+        miniCount.textContent = "Workshop đã đến giờ";
+        return;
+      }
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      diff -= days * 1000 * 60 * 60 * 24;
+
+      const hours = Math.floor(diff / (1000 * 60 * 60));
+      diff -= hours * 1000 * 60 * 60;
+
+      const minutes = Math.floor(diff / (1000 * 60));
+      diff -= minutes * 1000 * 60;
+
+      const seconds = Math.floor(diff / 1000);
+
+      document.getElementById("days").textContent = pad(days);
+      document.getElementById("hours").textContent = pad(hours);
+      document.getElementById("minutes").textContent = pad(minutes);
+      document.getElementById("seconds").textContent = pad(seconds);
+
+      miniCount.textContent = `Còn ${days} ngày ${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    const leadForm = document.getElementById("leadForm");
+    const successBox = document.getElementById("successBox");
+
+    leadForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const data = Object.fromEntries(new FormData(leadForm).entries());
+      const leads = JSON.parse(localStorage.getItem("dichLyWorkshopLeads") || "[]");
+      leads.push({
+        ...data,
+        submittedAt: new Date().toISOString()
+      });
+      localStorage.setItem("dichLyWorkshopLeads", JSON.stringify(leads));
+
+      successBox.classList.add("show");
+      leadForm.querySelector("button[type='submit']").textContent = "Đã ghi nhận - mở Zalo";
+      window.open(ZALO_GROUP_URL, "_blank", "noopener");
+    });
+
+    const floating = document.getElementById("floatingCta");
+    window.addEventListener("scroll", () => {
+      floating.style.display = window.scrollY > 620 ? "flex" : "none";
+    });
+  </script>
+</body>
+</html>
