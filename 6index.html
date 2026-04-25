@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Workshop Bài Dịch Lý 64 Quẻ | Trần Gia Phong Thuỷ</title>
+  <meta name="description" content="Workshop Bài Dịch Lý 64 Quẻ - 03 buổi thực hành. Nhận bộ bài trị giá 860.000đ, học cách dùng bộ bài và biết cách mở thêm một kênh tăng thu nhập." />
+  <meta property="og:title" content="Workshop Bài Dịch Lý 64 Quẻ - Học xong biết dùng và biết cách mở thêm thu nhập" />
+  <meta property="og:description" content="Đăng ký Workshop 03 buổi, nhận bộ bài Dịch Lý 64 quẻ trị giá 860.000đ. Giữ chỗ ngay." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="Image/image%20(2).png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:#0d0302; --wine:#260605; --wine2:#4c0b08; --red:#b83224;
+      --gold:#d9a441; --gold2:#f5cc72; --cream:#fff8e4; --muted:#f3e3bf;
+      --line:rgba(245,204,114,.34); --glass:rgba(255,248,228,.085);
+      --shadow:0 28px 85px rgba(0,0,0,.46); --max:1180px; --nav:78px;
+      --ease:cubic-bezier(.22,.61,.36,1); --dur-fast:.26s; --dur-mid:.5s;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--bg);overflow-x:clip}
+    body{
+      margin:0;color:var(--cream);font-family:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+      line-height:1.72;background:
+      radial-gradient(circle at 15% 6%,rgba(245,204,114,.19),transparent 27%),
+      radial-gradient(circle at 85% 10%,rgba(225,75,52,.22),transparent 31%),
+      linear-gradient(135deg,#0b0302 0%,#2b0605 48%,#0d0302 100%);
+      overflow-x:hidden;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision;
+    }
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background-image:
+      linear-gradient(rgba(255,231,168,.035) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(255,231,168,.035) 1px,transparent 1px);
+      background-size:72px 72px;mask-image:radial-gradient(circle,#000,transparent 76%);animation:gridDrift 24s linear infinite;
+    }
+    @keyframes gridDrift{0%{transform:translate3d(0,0,0)}50%{transform:translate3d(-18px,12px,0)}100%{transform:translate3d(0,0,0)}}
+    a{color:inherit;text-decoration:none} img{display:block;max-width:100%}
+    p{margin:0 0 1rem;color:var(--muted);line-height:1.8}
+    strong{color:var(--cream);font-weight:900}
+    h1,h2,h3{margin:0 0 1rem;color:var(--cream);font-weight:900;letter-spacing:0}
+    h1{font-size:68px;line-height:1.08}
+    h2{font-size:44px;line-height:1.18}
+    h3{font-size:24px;line-height:1.32}
+    .page{position:relative;z-index:1}.container{width:min(var(--max),calc(100% - 36px));margin:0 auto}
+    .hero-grid > *, .pain > *, .offer > *, .gallery > *, .host > *, .register > *, .grid2 > *, .grid3 > *, .trust > *, .urgency > *, .timeline > *, .host-stats > * {min-width:0}
+    .topbar{position:sticky;top:0;z-index:60;height:var(--nav);border-bottom:1px solid var(--line);
+      background:linear-gradient(90deg,rgba(65,7,5,.98),rgba(88,10,7,.98));box-shadow:0 14px 45px rgba(0,0,0,.24);backdrop-filter:blur(16px)}
+    .nav{height:var(--nav);display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;min-width:260px}.brand img{width:62px;height:62px;object-fit:contain;filter:drop-shadow(0 10px 20px rgba(0,0,0,.32))}
+    .brand b{display:block;color:#fff3ca;font-size:20px;line-height:1.05;letter-spacing:0;text-transform:uppercase}
+    .brand span{display:block;color:var(--gold2);font-size:11px;line-height:1.35;letter-spacing:0;text-transform:uppercase;font-weight:800}
+    .links{display:flex;gap:clamp(12px,1.9vw,25px);font-size:13px;font-weight:900;text-transform:uppercase;color:#fff2c9;white-space:nowrap}
+    .links a{position:relative;padding:26px 0}.links a:after{content:"";position:absolute;left:0;right:0;bottom:18px;height:2px;background:linear-gradient(90deg,transparent,var(--gold2),transparent);transform:scaleX(0);transition:.25s}.links a:hover:after{transform:scaleX(1)}
+    .btn,.nav-cta{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 22px;border-radius:999px;border:1px solid transparent;font-weight:950;line-height:1.25;text-align:center;overflow:hidden;transition:transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease)}
+    .btn:hover,.nav-cta:hover{transform:translateY(-2px)}
+    .btn-primary,.nav-cta{color:#351407;background:linear-gradient(130deg,#b17724 0%,#f5cc72 35%,#fff0b8 58%,#d49637 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 20px 44px rgba(217,164,65,.32),0 0 0 1px rgba(255,232,178,.4)}
+    .btn-primary:after{content:"";position:absolute;inset:-90% -30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);transform:rotate(20deg) translateX(-140%);animation:shine 4s ease-in-out infinite;pointer-events:none}
+    @keyframes shine{0%,50%{transform:rotate(20deg) translateX(-140%)}72%,100%{transform:rotate(20deg) translateX(140%)}}
+    .btn-secondary{color:#ffe9ab;border-color:var(--line);background:rgba(255,248,228,.06);backdrop-filter:blur(12px)}
+    .menu{display:none;width:46px;height:46px;border-radius:16px;border:1px solid var(--line);background:rgba(255,255,255,.06);color:#ffe9ab;font-size:24px}
+    .section{position:relative;padding:84px 0;scroll-margin-top:calc(var(--nav) + 18px)}.section-tight{padding:48px 0}
+    .section:before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(245,204,114,.14),transparent);pointer-events:none}
+    .section.fx-frame{overflow:hidden}
+    .section.fx-frame:after{content:"";position:absolute;inset:12px 0 12px;border-top:1px solid rgba(245,204,114,.08);border-bottom:1px solid rgba(245,204,114,.08);background:linear-gradient(120deg,transparent 0%,rgba(245,204,114,.08) 48%,transparent 60%);opacity:.75;animation:sectionDrift 12s linear infinite;pointer-events:none}
+    @keyframes sectionDrift{0%,65%{transform:translateX(-22%)}100%{transform:translateX(22%)}}
+    .fx-frame{position:relative;overflow:hidden;isolation:isolate}
+    .fx-frame:before{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:1px;background:conic-gradient(from 0deg,rgba(245,204,114,.05),rgba(245,204,114,.42),rgba(255,154,107,.24),rgba(245,204,114,.05));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:frameSpin 14s linear infinite;pointer-events:none;z-index:0}
+    .fx-frame:after{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(118deg,transparent 0%,rgba(245,204,114,.12) 46%,transparent 60%);transform:translateX(-130%);animation:frameSweep 4.8s var(--ease) infinite;pointer-events:none;z-index:0}
+    .fx-frame > *{position:relative;z-index:1}
+    @keyframes frameSpin{to{transform:rotate(360deg)}}
+    @keyframes frameSweep{0%,65%{transform:translateX(-130%)}100%{transform:translateX(130%)}}
+    .kicker{display:inline-flex;align-items:center;gap:10px;margin-bottom:14px;color:var(--gold2);font-size:13px;font-weight:950;letter-spacing:0;text-transform:uppercase}
+    .kicker:before{content:"";width:38px;height:2px;background:linear-gradient(90deg,var(--gold),transparent);border-radius:999px}
+    .head{max-width:830px;margin-bottom:36px}.head.center{text-align:center;margin-left:auto;margin-right:auto}.head.center .kicker{justify-content:center}.head.center .kicker:after{content:"";width:38px;height:2px;background:linear-gradient(90deg,transparent,var(--gold));border-radius:999px}
+    .head p{font-size:18px}
+    .hero{padding:58px 0 54px;position:relative;overflow:hidden}
+    .hero:before{content:"";position:absolute;inset:-24% -18% auto -18%;height:92%;background:radial-gradient(circle,rgba(245,204,114,.17),rgba(245,204,114,.05) 42%,transparent 70%);pointer-events:none;filter:blur(8px)}
+    .hero:after{content:"";position:absolute;inset:-45% -20%;background:conic-gradient(from 0deg,transparent,rgba(255,176,104,.08),transparent);opacity:.24;animation:heroSweep 16s linear infinite;pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(410px,.92fr);grid-template-areas:"copy media" "proof media" "pain media";gap:16px 30px;align-items:start;position:relative;padding:30px;border-radius:38px;border:1px solid rgba(245,204,114,.3);background:linear-gradient(145deg,rgba(255,248,228,.1),rgba(255,248,228,.045));box-shadow:0 25px 70px rgba(0,0,0,.32),0 0 0 1px rgba(245,204,114,.12) inset;overflow:hidden}
+    .hero-grid:before{content:"";position:absolute;inset:-2px;border-radius:inherit;padding:1px;background:conic-gradient(from 0deg,rgba(245,204,114,.02),rgba(245,204,114,.18),rgba(255,154,107,.12),rgba(245,204,114,.02));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;animation:heroBorderSpin 24s linear infinite}
+    .hero-copy{grid-area:copy;display:grid;align-content:start;gap:12px}
+    .hero h1{max-width:13.8ch;text-shadow:0 10px 32px rgba(0,0,0,.34);margin-bottom:0}
+    .hero h1 span{display:block;background:linear-gradient(90deg,#fff8dc 0%,var(--gold2) 45%,#ff9a6b 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:19px;color:#f0dfbe;max-width:60ch;margin-bottom:0}
+    .proof-row{display:flex;flex-wrap:wrap;gap:10px;margin:2px 0 0}
+    .hero-proof{grid-area:proof;margin-top:2px}
+    .proof{display:inline-flex;align-items:center;gap:8px;padding:9px 13px;border-radius:999px;border:1px solid rgba(245,204,114,.26);background:rgba(255,248,228,.1);color:#fff4d2;font-size:12px;font-weight:900;letter-spacing:0;text-transform:uppercase}
+    .proof:before{content:"";width:8px;height:8px;border-radius:50%;background:linear-gradient(135deg,#f5cc72,#fff0b8);box-shadow:0 0 0 4px rgba(245,204,114,.12)}
+    .hero-note{max-width:62ch;color:#f0ddbb;font-size:15px;line-height:1.72;margin-bottom:0}
+    .actions{display:flex;flex-wrap:wrap;gap:14px;margin:12px 0 8px}
+    .actions .btn-primary{min-width:310px}
+    .cta-urgency{margin:0;color:#ffdca3;font-size:13px;font-weight:900;letter-spacing:0}
+    .pain-line{margin-top:6px;padding:13px 16px;border-left:3px solid rgba(245,204,114,.52);border-radius:12px;background:rgba(255,248,228,.06);color:#ffe8c4;font-size:14px;line-height:1.68}
+    .hero-pain{grid-area:pain;max-width:64ch}
+    .urgency{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:26px}
+    .u,.panel,.stat,.info,details{border:1px solid var(--line);background:linear-gradient(145deg,rgba(255,248,228,.1),rgba(255,248,228,.05));box-shadow:0 22px 60px rgba(0,0,0,.2)}
+    .u,.panel,.stat,.session,.info,.price-card,details{transition:transform var(--dur-mid) var(--ease), box-shadow var(--dur-mid) var(--ease), border-color var(--dur-mid) var(--ease)}
+    .u:hover,.panel:hover,.stat:hover,.session:hover,.info:hover,.price-card:hover,details:hover{transform:translateY(-6px);border-color:rgba(245,204,114,.5);box-shadow:0 30px 70px rgba(0,0,0,.3)}
+    .u{padding:15px;border-radius:19px}.u b{display:block;color:#fff5d3;font-size:15px;line-height:1.35;margin-bottom:4px}.u span{color:#c9b184;font-size:13px;line-height:1.55}
+    .hero-media{grid-area:media;position:relative;display:grid;gap:16px;align-content:start;min-height:100%;padding:0;justify-items:stretch}
+    .hero-value-card{position:relative;padding:18px;border-radius:24px;border:1px solid rgba(245,204,114,.48);background:radial-gradient(circle at 12% 0%,rgba(245,204,114,.16),transparent 34%),linear-gradient(150deg,rgba(73,10,7,.86),rgba(20,5,4,.94));box-shadow:0 22px 56px rgba(0,0,0,.34),0 0 28px rgba(245,204,114,.13),inset 0 0 34px rgba(245,204,114,.07);overflow:hidden}
+    .hero-value-card:before{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(120deg,transparent 0%,rgba(255,240,184,.16) 45%,transparent 58%);transform:translateX(-120%);animation:frameSweep 5.8s var(--ease) infinite;pointer-events:none}
+    .hero-value-card > *{position:relative;z-index:1}
+    .hero-value-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px}
+    .hero-value-title{display:grid;gap:3px}.hero-value-title b{color:#fff5d3;font-size:16px;line-height:1.3}.hero-value-title span{color:#d7c095;font-size:12px;font-weight:800;line-height:1.45}
+    .hero-total{display:grid;gap:1px;text-align:right;color:#351407;background:linear-gradient(135deg,#d9a441,#fff0b8);border-radius:16px;padding:9px 11px;min-width:132px;box-shadow:0 12px 26px rgba(217,164,65,.18)}
+    .hero-total small{font-size:10px;font-weight:900;text-transform:uppercase}.hero-total strong{color:#351407;font-size:18px;line-height:1}
+    .hero-value-list{list-style:none;display:grid;gap:8px;margin:0 0 13px;padding:0}
+    .hero-value-list li{position:relative;padding-left:25px;color:#f2dfbd;font-size:13px;line-height:1.45}
+    .hero-value-list li:before{content:"";position:absolute;left:0;top:.38em;width:13px;height:13px;border-radius:50%;background:linear-gradient(135deg,#f5cc72,#fff0b8);box-shadow:0 0 0 4px rgba(245,204,114,.1)}
+    .hero-mini-cta{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:0 16px;border-radius:999px;border:1px solid rgba(245,204,114,.42);background:rgba(255,248,228,.08);color:#ffe9ab;font-size:13px;font-weight:950}
+    .hero-mini-cta:hover{border-color:rgba(245,204,114,.7);background:rgba(255,248,228,.12)}
+    .hero-visual{position:relative;min-height:320px;padding:16px;border-radius:30px;border:1px solid rgba(245,204,114,.34);background:linear-gradient(150deg,rgba(92,14,9,.62),rgba(23,7,5,.92));box-shadow:0 26px 70px rgba(0,0,0,.42),inset 0 0 42px rgba(245,204,114,.08);overflow:hidden}
+    .hero-visual:before{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(circle at 20% 10%,rgba(245,204,114,.2),transparent 30%),radial-gradient(circle at 82% 18%,rgba(255,154,107,.18),transparent 26%);pointer-events:none}
+    .hero-deck{position:relative;min-height:288px;display:grid;place-items:center;padding:10px 0}
+    .hero-main-card{max-width:74%;margin:0 auto;border-radius:28px;border:1px solid rgba(245,204,114,.42);background:rgba(255,248,228,.08);padding:10px;box-shadow:0 22px 50px rgba(0,0,0,.38);transform:rotate(-1.5deg)}
+    .hero-main-card img{width:100%;height:260px;object-fit:contain;object-position:center;border-radius:20px;background:linear-gradient(145deg,rgba(20,6,4,.95),rgba(45,10,7,.92))}
+    .hero-float-card{position:absolute;width:33%;border-radius:18px;border:1px solid rgba(245,204,114,.34);background:rgba(255,248,228,.09);padding:6px;box-shadow:0 18px 44px rgba(0,0,0,.42)}
+    .hero-float-card img{width:100%;height:132px;object-fit:contain;object-position:center;border-radius:12px;background:linear-gradient(145deg,rgba(20,6,4,.95),rgba(45,10,7,.92))}
+    .hero-float-top{top:6%;left:1%;transform:rotate(-8deg)}
+    .hero-float-bottom{bottom:4%;right:1%;transform:rotate(8deg)}
+    .aura{position:absolute;inset:16px 8px auto auto;width:min(460px,calc(100% - 20px));aspect-ratio:1;height:auto;border-radius:50%;background:radial-gradient(circle,rgba(245,204,114,.24),rgba(183,49,35,.14) 44%,transparent 72%);filter:blur(8px);animation:pulse 6s ease-in-out infinite}
+    @keyframes pulse{0%,100%{transform:scale(.96);opacity:.72}50%{transform:scale(1.04);opacity:1}}
+    .count{position:relative;left:auto;right:auto;bottom:auto;z-index:4;width:100%;padding:24px 22px;border-radius:30px;border:1px solid rgba(245,204,114,.76);background:radial-gradient(circle at 18% 0%,rgba(245,204,114,.2),transparent 32%),linear-gradient(145deg,#4b0907 0%,#250605 58%,#130403 100%);box-shadow:0 34px 82px rgba(0,0,0,.5),0 0 36px rgba(245,204,114,.24),inset 0 0 52px rgba(245,204,114,.12);backdrop-filter:blur(18px);margin-top:0;margin-right:0;overflow:hidden}
+    .count:before{content:"";position:absolute;inset:1px;border-radius:inherit;background:radial-gradient(circle at 15% 10%,rgba(245,204,114,.22),transparent 32%),radial-gradient(circle at 86% 18%,rgba(255,154,107,.16),transparent 28%);pointer-events:none;opacity:.9;z-index:0}
+    .count:after{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;background:linear-gradient(115deg,transparent 0%,rgba(255,240,184,.78) 18%,transparent 36%,transparent 100%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:countShimmer 5.2s ease-in-out infinite;pointer-events:none;z-index:0}
+    .count > *{position:relative;z-index:1}
+    .count-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:12px}
+    .count-deadline{display:grid;gap:4px}
+    .count-deadline span{font-size:17px;letter-spacing:0;text-transform:none;color:#fff0b8;font-weight:950;line-height:1.25}
+    .count-deadline small{color:var(--muted);font-weight:700}
+    .count-badge{display:inline-flex;align-items:center;gap:7px;padding:8px 10px;border-radius:999px;border:1px solid rgba(131,227,161,.44);background:rgba(131,227,161,.12);color:#ddffe7;font-size:11px;font-weight:900;letter-spacing:0;text-transform:uppercase;white-space:nowrap}
+    .count-badge:before{content:"";width:7px;height:7px;border-radius:50%;background:#9cffbc;box-shadow:0 0 0 4px rgba(131,227,161,.2)}
+    .count-badge.is-ended{border-color:rgba(255,154,107,.5);background:rgba(255,154,107,.16);color:#ffe4d2}
+    .count-badge.is-ended:before{background:#ff9a6b;box-shadow:0 0 0 4px rgba(255,154,107,.2)}
+    .count-callout{margin:14px 0;padding:12px 14px;border-radius:16px;border:1px solid rgba(245,204,114,.24);background:linear-gradient(135deg,rgba(245,204,114,.13),rgba(255,154,107,.08));color:#fff6d6;font-size:13px;font-weight:800;line-height:1.5}
+    .count-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin:15px 0 14px}
+    .count-box{text-align:center;padding:18px 6px;border-radius:16px;border:1px solid rgba(245,204,114,.38);background:linear-gradient(180deg,rgba(255,248,228,.18),rgba(255,248,228,.08));box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 14px 28px rgba(0,0,0,.18)}
+    .count-box strong{display:block;font-size:42px;line-height:1;color:#fff;letter-spacing:0}
+    .count-box span{display:block;margin-top:6px;color:#e3cfa2;font-size:11px;font-weight:900;letter-spacing:0;text-transform:uppercase}
+    .count-box.is-pulse{animation:pulseSecond 900ms ease-out}
+    .count-link{display:flex;justify-content:center;align-items:center;min-height:48px;padding:0 14px;border-radius:999px;border:1px solid rgba(245,204,114,.4);background:linear-gradient(130deg,#b17724 0%,#f5cc72 35%,#fff0b8 58%,#d49637 100%);color:#351407;font-size:15px;font-weight:950;line-height:1.2;text-align:center;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 16px 32px rgba(217,164,65,.24)}
+    .trust{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.stat{padding:21px;border-radius:24px}.stat b{display:block;color:#ffe9ab;font-size:34px;line-height:1;letter-spacing:0;margin-bottom:8px}.stat span{color:var(--muted);font-size:14px;line-height:1.6}
+    .pain{display:grid;grid-template-columns:1.08fr .92fr;gap:22px;align-items:stretch}.panel{position:relative;padding:28px;border-radius:28px;overflow:hidden}.panel:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 14% 0%,rgba(245,204,114,.12),transparent 36%);pointer-events:none}.panel>*{position:relative;z-index:1}
+    .warning{background:linear-gradient(145deg,rgba(183,49,35,.24),rgba(255,248,228,.055)),rgba(255,255,255,.04)}
+    .large{font-size:19px;color:#ead6af}
+    .list{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:12px}.list li{position:relative;padding-left:34px;color:var(--muted);line-height:1.72}.list li:before{content:"✓";position:absolute;left:0;top:1px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;color:#122f15;background:linear-gradient(135deg,#83e3a1,#ddffd8);font-weight:950;font-size:13px}.list.no li:before{content:"×";color:#fff8e4;background:linear-gradient(135deg,#c0392b,#ff795e)}
+    .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.result{min-height:250px}
+    .num{display:inline-grid;place-items:center;width:58px;height:58px;margin-bottom:18px;border-radius:18px;color:#351407;background:linear-gradient(135deg,#b9822d,var(--gold2) 55%,#fff0b8);font-weight:950;box-shadow:0 16px 34px rgba(217,164,65,.16)}
+    .timeline{display:grid;gap:16px}.session{display:grid;grid-template-columns:128px 1fr;gap:22px;padding:24px;border-radius:28px;border:1px solid var(--line);background:rgba(255,248,228,.06);box-shadow:0 20px 55px rgba(0,0,0,.16)}
+    .badge{display:grid;place-items:center;align-content:center;min-height:120px;border-radius:22px;color:#351407;background:linear-gradient(135deg,#b9822d,var(--gold2) 55%,#fff0b8);box-shadow:0 16px 38px rgba(217,164,65,.16);font-weight:950}.badge span{font-size:13px;letter-spacing:0;text-transform:uppercase}.badge b{font-size:44px;line-height:.95;letter-spacing:0}
+    .offer{display:grid;grid-template-columns:.9fr 1.1fr;gap:30px;align-items:center;padding:34px;border-radius:40px;border:1px solid rgba(245,204,114,.38);background:radial-gradient(circle at 20% 0%,rgba(245,204,114,.18),transparent 30%),linear-gradient(145deg,rgba(92,14,9,.92),rgba(14,4,3,.96));box-shadow:var(--shadow);position:relative;overflow:hidden}
+    .price-card{padding:30px;border-radius:30px;border:1px solid rgba(255,248,228,.14);background:rgba(255,248,228,.075)}.price-label{color:var(--gold2);font-weight:950;letter-spacing:0;text-transform:uppercase;font-size:13px}.price{margin:8px 0 6px;color:#fff8dc;font-size:64px;line-height:1.02;letter-spacing:0;font-weight:950}.bonus{display:inline-flex;align-items:center;gap:8px;margin-top:15px;padding:11px 14px;border-radius:999px;border:1px solid rgba(131,227,161,.32);background:rgba(131,227,161,.11);color:#dcffe4;font-weight:900}
+    .price-compare{display:grid;gap:8px;margin:16px 0;padding:14px;border-radius:18px;border:1px solid rgba(245,204,114,.3);background:rgba(255,248,228,.08)}
+    .price-compare .main-fee{font-size:26px;font-weight:950;color:#fff2cf}
+    .price-compare .bonus-fee{font-size:16px;font-weight:850;color:#d7ffe0}
+    .value-stack{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:10px}
+    .value-stack li{padding:10px 12px;border-radius:14px;border:1px solid rgba(245,204,114,.2);background:rgba(255,248,228,.06);color:#f1ddbb;font-size:14px;line-height:1.6}
+    .offer-note{margin-top:12px;font-size:13px;color:#ffdca1;font-weight:850}
+    .highlight-gallery{position:relative;overflow:hidden}
+    .highlight-gallery:before{content:"";position:absolute;inset:-20% -10% auto -10%;height:70%;background:radial-gradient(circle,rgba(245,204,114,.12),transparent 62%);filter:blur(10px);pointer-events:none}
+    .gallery{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;position:relative;padding:20px;border-radius:36px;border:1px solid rgba(245,204,114,.24);background:linear-gradient(145deg,rgba(46,8,6,.5),rgba(78,10,7,.34));box-shadow:0 24px 72px rgba(0,0,0,.3);overflow:hidden}
+    .gallery:before{content:"";position:absolute;inset:-2px;border-radius:inherit;padding:1px;background:conic-gradient(from 0deg,rgba(245,204,114,.04),rgba(245,204,114,.32),rgba(255,154,107,.2),rgba(245,204,114,.04));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;animation:galleryBorderSpin 20s linear infinite}
+    .gmain,.gside{border-radius:30px;border:1px solid rgba(245,204,114,.34);background:rgba(255,248,228,.07);padding:12px;box-shadow:0 24px 60px rgba(0,0,0,.24)}.gmain img,.gside img{width:100%;object-fit:contain;object-position:center;border-radius:22px;background:linear-gradient(145deg,rgba(20,6,4,.95),rgba(45,10,7,.92));transition:transform .55s ease,filter .55s ease}.gmain img{height:560px}.gside{display:grid;gap:12px}.gside img{height:274px}
+    .gmain:hover img,.gside:hover img{transform:scale(1.015);filter:brightness(1.05) saturate(1.04)}
+    .btn-primary{animation:ctaPulse 4.8s ease-in-out infinite}
+    .btn-primary:hover{transform:translateY(-3px) scale(1.02)}
+    @keyframes ctaPulse{0%,100%{box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 16px 36px rgba(217,164,65,.22)}50%{box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 20px 44px rgba(245,204,114,.28)}}
+    @keyframes pulseSecond{0%{box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 0 0 rgba(245,204,114,.36),0 14px 28px rgba(0,0,0,.18)}100%{box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 0 0 14px rgba(245,204,114,0),0 14px 28px rgba(0,0,0,.18)}}
+    @keyframes countShimmer{0%,62%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
+    @keyframes hostFloat{0%,100%{transform:rotate(-4deg) translateY(0)}50%{transform:rotate(-4deg) translateY(-6px)}}
+    @keyframes heroSweep{to{transform:rotate(360deg)}}
+    @keyframes heroBorderSpin{to{transform:rotate(360deg)}}
+    @keyframes galleryBorderSpin{to{transform:rotate(360deg)}}
+    @keyframes heroBgMove{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+    .host{display:grid;grid-template-columns:.92fr 1.08fr;gap:32px;align-items:center}.host-photo{padding:16px;border-radius:38px;border:1px solid rgba(245,204,114,.35);background:radial-gradient(circle at 50% 0%,rgba(245,204,114,.16),transparent 44%),rgba(255,248,228,.06);box-shadow:var(--shadow)}.host-photo img{width:100%;border-radius:26px;object-fit:cover}
+    .org{margin-top:16px;padding:18px;border-radius:24px;border:1px solid var(--line);background:rgba(255,248,228,.06);display:grid;gap:12px;justify-items:center}
+    .social-preview{width:100%;display:grid;place-items:center;padding:14px;border-radius:20px;border:1px solid rgba(245,204,114,.2);background:linear-gradient(145deg,rgba(255,248,228,.1),rgba(255,248,228,.04));box-shadow:inset 0 1px 0 rgba(255,255,255,.14)}
+    .follow-chip{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;border:1px solid rgba(245,204,114,.28);background:rgba(19,7,5,.65);color:#ffe9ab;font-size:12px;font-weight:900;letter-spacing:0;text-transform:uppercase;margin-bottom:10px}
+    .social-preview img{width:min(390px,100%);max-height:540px;object-fit:contain;object-position:center;border-radius:18px;background:#0d0d0d}
+    .org p{margin:0;font-size:14px;line-height:1.75;text-align:left}
+    .host-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.host-stats div{padding:16px 12px;text-align:center;border-radius:18px;border:1px solid var(--line);background:rgba(255,248,228,.06)}.host-stats b{display:block;color:#ffe9ab;font-size:28px;line-height:1.05;letter-spacing:0}.host-stats span{display:block;color:#c9b184;font-size:12px;font-weight:800;line-height:1.45;margin-top:5px}
+    .review{min-height:250px}.stars{color:var(--gold2);letter-spacing:0;margin-bottom:14px;font-size:18px}.rtop{display:flex;gap:12px;align-items:center;margin-bottom:14px}.initial{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#351407;background:linear-gradient(135deg,#b9822d,var(--gold2) 55%,#fff0b8);font-weight:950}.rtop b{display:block;color:#fff6d9;line-height:1.25}.rtop span{color:#c9b184;font-size:13px;font-weight:700}
+    details{padding:18px 20px;border-radius:20px;margin-bottom:12px}summary{cursor:pointer;color:#fff7dc;font-weight:950;list-style:none;line-height:1.5}summary::-webkit-details-marker{display:none}summary:after{content:"+";float:right;color:var(--gold2);font-size:25px;line-height:1;margin-left:12px}details[open] summary:after{content:"−"}details p{margin:12px 0 0}
+    .register{display:grid;grid-template-columns:.95fr 1.05fr;gap:28px;align-items:start;padding:34px;border-radius:40px;border:1px solid rgba(245,204,114,.38);background:radial-gradient(circle at 20% 0%,rgba(245,204,114,.16),transparent 30%),linear-gradient(145deg,rgba(92,14,9,.92),rgba(14,4,3,.96));box-shadow:var(--shadow);position:relative;overflow:hidden}.rinfo{display:grid;gap:12px;margin-top:20px}.info{padding:17px;border-radius:20px}.info b{display:block;color:#fff5d2;margin-bottom:3px}.info span{color:var(--muted);font-size:14px;line-height:1.6}
+    .qr{display:grid;grid-template-columns:130px 1fr;gap:16px;align-items:center;margin-top:18px;padding:16px;border-radius:24px;border:1px solid var(--line);background:rgba(255,248,228,.06)}.qr img{width:130px;height:130px;object-fit:cover;border-radius:16px;background:#fff}
+    form{padding:28px;border-radius:30px;border:1px solid rgba(255,248,228,.14);background:rgba(255,248,228,.075)}.field{margin-bottom:15px}label{display:block;margin-bottom:7px;color:var(--gold2);font-size:13px;font-weight:900;letter-spacing:0}input,select,textarea{width:100%;min-height:53px;padding:0 14px;border-radius:16px;border:1px solid rgba(245,204,114,.24);background:rgba(8,4,2,.48);color:#fff9e6;outline:none;font:inherit}textarea{min-height:100px;resize:vertical;padding-top:13px}input::placeholder,textarea::placeholder{color:rgba(231,210,168,.54)}input:focus,select:focus,textarea:focus{border-color:rgba(245,204,114,.72);box-shadow:0 0 0 4px rgba(245,204,114,.12)}
+    .success{display:none;margin-top:16px;padding:14px 15px;border-radius:18px;border:1px solid rgba(131,227,161,.28);background:rgba(131,227,161,.1);color:#d7ffe0;font-weight:850}.success.show{display:block}
+    .final{text-align:center;padding:58px 28px;border-radius:40px;border:1px solid rgba(245,204,114,.36);background:radial-gradient(circle at 50% 0%,rgba(245,204,114,.18),transparent 36%),linear-gradient(145deg,rgba(88,23,12,.8),rgba(16,7,4,.96));box-shadow:var(--shadow);position:relative;overflow:hidden}.final h2{max-width:900px;margin-left:auto;margin-right:auto}.final p{max-width:760px;margin:0 auto 26px;font-size:18px}
+    .offer:before,.register:before,.final:before{content:"";position:absolute;inset:-2px;border-radius:inherit;padding:1px;background:conic-gradient(from 0deg,rgba(245,204,114,.03),rgba(245,204,114,.3),rgba(255,154,107,.16),rgba(245,204,114,.03));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:spinBorder 24s linear infinite;pointer-events:none}
+    .offer:after,.register:after,.final:after{content:"";position:absolute;inset:auto -30% -55% -30%;height:280px;background:radial-gradient(circle,rgba(245,204,114,.14),transparent 64%);pointer-events:none}
+    @keyframes spinBorder{to{transform:rotate(360deg)}}
+    .reveal{opacity:0;transform:translateY(20px);transition:opacity .55s var(--ease), transform .55s var(--ease);transition-delay:var(--d,0ms)}
+    .reveal.show{opacity:1;transform:translateY(0) scale(1)}
+    .float{position:fixed;z-index:55;right:18px;bottom:18px;display:none;gap:10px;align-items:center;padding:10px;border-radius:999px;border:1px solid rgba(245,204,114,.25);background:rgba(12,5,3,.78);backdrop-filter:blur(16px);box-shadow:0 20px 50px rgba(0,0,0,.34)}.float span{padding:0 10px;color:var(--gold2);font-weight:950;font-size:13px;white-space:nowrap}.float a{min-height:44px;padding:0 16px;font-size:14px}
+    footer{padding:42px 0 72px;color:rgba(231,210,168,.72);font-size:14px;text-align:center}
+    @media(max-width:1080px){.links{display:none}.menu{display:inline-grid;place-items:center}.nav.open .links{display:grid;position:absolute;left:18px;right:18px;top:calc(var(--nav) + 10px);gap:0;padding:12px;border-radius:22px;border:1px solid var(--line);background:rgba(35,6,4,.97);box-shadow:var(--shadow)}.nav.open .links a{padding:14px 10px}.nav.open .links a:after{bottom:7px}.section:before{opacity:.7}}
+    @media(max-width:980px){h1{font-size:58px}h2{font-size:38px}.hero-grid,.pain,.offer,.gallery,.host,.register,.grid2{grid-template-columns:1fr}.hero-grid{grid-template-areas:"copy" "media" "proof" "pain";padding:20px}.hero-media{align-items:stretch;justify-content:flex-start;max-width:640px;width:100%;margin:0 auto;min-height:0}.hero-main-card{max-width:68%}.hero-main-card img{height:300px}.hero-float-card{width:31%}.hero-float-card img{height:142px}.grid3,.trust,.urgency,.host-stats{grid-template-columns:1fr}.main-img img{height:470px}.count{margin-top:0;max-width:100%}.price{font-size:56px}}
+    @media(max-width:720px){.container{width:min(100% - 24px,var(--max))}.brand{min-width:0}.brand img{width:48px;height:48px}.brand b{font-size:14px;letter-spacing:0}.brand span{font-size:10px;letter-spacing:0}.nav-cta{display:none}.hero{padding:42px 0 40px}.hero-grid{padding:16px;border-radius:28px;gap:18px}h1{font-size:40px;line-height:1.14}h2{font-size:32px}h3{font-size:21px}.lead{font-size:16px;line-height:1.72}.kicker{font-size:11px;letter-spacing:0}.hero h1{max-width:100%}p{line-height:1.75}.actions .btn,.form-actions .btn{width:100%}.actions .btn-primary{min-width:0}.proof-row{gap:8px}.hero-proof{margin-top:0}.proof{font-size:10px;padding:8px 10px;letter-spacing:0}.hero-note{font-size:14px}.pain-line{font-size:13px;padding:11px 12px}.hero-visual{display:none}.count{margin-top:0;padding:18px;border-radius:24px}.count-top{display:grid;gap:8px}.count-badge{justify-self:start}.count-grid{grid-template-columns:repeat(2,1fr);gap:8px}.count-box{border-radius:14px;padding:13px 6px}.count-box strong{font-size:34px}.section{padding:52px 0}.section-tight{padding:34px 0}.panel,.offer,.register,form,.final{padding:20px;border-radius:24px}.session{grid-template-columns:1fr;padding:18px}.badge{min-height:82px;display:flex;gap:10px;justify-content:center}.gallery{padding:12px;border-radius:24px}.gmain img{height:360px}.gside img{height:220px}.social-preview img{max-height:460px}.qr{grid-template-columns:1fr;text-align:center}.qr img{margin:0 auto}.float{left:10px;right:10px;display:flex}.float span{display:none}.float .btn{width:100%}.price{font-size:48px}}
+    @media(max-width:520px){h1{font-size:34px}.hero-media{padding-bottom:8px}.hero-main-card{max-width:100%}.hero-main-card img{height:280px}.hero-float-card{display:none}.count{padding:16px;border-radius:20px;margin-top:0}.count-deadline span{font-size:14px}.count-link{font-size:13px}.count-callout{padding:10px 11px;font-size:12px}.count-grid{grid-template-columns:repeat(2,1fr);gap:8px}.count-box{padding:11px 8px;border-radius:12px}.count-box strong{font-size:30px}.count-box span{margin-top:4px;font-size:11px;letter-spacing:0}.grid3{grid-template-columns:1fr}.trust{grid-template-columns:1fr}.urgency{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gmain img{height:320px}.gside{grid-template-columns:1fr 1fr}.gside img{height:180px}.host-stats{grid-template-columns:1fr}.session{gap:16px}.badge{min-height:74px}.float{left:8px;right:8px;bottom:10px;padding:8px 9px}.float .btn{min-height:42px}}
+    @media(max-width:520px){.hero-value-card{padding:15px;border-radius:20px}.hero-value-top{display:grid;gap:10px}.hero-total{width:100%;min-width:0;text-align:left}.hero-mini-cta{width:100%}.hero-value-list li{font-size:12px}}
+    @media (prefers-reduced-motion:reduce){.reveal,.u,.panel,.stat,.session,.info,.price-card,details,.hero:after,.hero-grid:before,.gallery:before,.btn-primary,.main-img,.host-float,.fx-frame:before,.fx-frame:after,body:before,.hero-grid{transition:none!important;animation:none!important;transform:none!important;opacity:1!important}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="container nav" id="nav">
+        <a class="brand" href="#tong-quan" aria-label="Trần Gia Phong Thuỷ">
+          <img src="Image/image.png" alt="Logo Trần Gia Phong Thuỷ" />
+          <div><b>Trần Gia Phong Thuỷ</b><span>Workshop Bài Dịch Lý 64 Quẻ</span></div>
+        </a>
+        <nav class="links" aria-label="Điều hướng">
+          <a href="#tong-quan">Tổng quan</a><a href="#nhan-duoc-gi">Nhận gì</a><a href="#lo-trinh">Lộ trình</a><a href="#host">Host</a><a href="#faq">FAQ</a><a href="#dang-ky">Đăng ký</a>
+        </nav>
+        <a class="nav-cta" href="#dang-ky">Giữ chỗ ngay & nhận bộ bài 860.000đ</a>
+        <button class="menu" id="menuBtn" aria-label="Mở menu">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="tong-quan">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="kicker">Workshop Zoom trực tiếp · 03 buổi thực hành · Tối Thứ 6, 22/05/2026</div>
+            <h1>Đừng quyết định trong mơ hồ. <span>Học Bài Dịch Lý 64 Quẻ</span> để tự soi rõ việc của mình.</h1>
+            <p class="lead">03 buổi thực hành trực tiếp cùng Dịch học sỹ Trần Thái Bình. Bạn học cách đặt câu hỏi đúng, đọc tình huống rõ hơn và dùng bộ bài như một công cụ tự vấn trước các quyết định quan trọng — không cần “căn”, không học lý thuyết suông.</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="#dang-ky">Giữ chỗ ngay & nhận bộ bài 860.000đ</a>
+              <a class="btn btn-secondary" href="#lo-trinh">Xem lộ trình 03 buổi</a>
+            </div>
+            <p class="cta-urgency">Chỉ 100 suất/lớp. Đủ chỗ sẽ đóng form.</p>
+          </div>
+          <div class="hero-media">
+            <div class="count">
+              <div class="count-top">
+                <div class="count-deadline"><span>Đếm ngược đến lúc đóng form</span><small>20:00 · 22/05/2026</small></div>
+                <div class="count-badge">Đang nhận giữ chỗ</div>
+              </div>
+              <div class="count-grid">
+                <div class="count-box"><strong id="days">00</strong><span>Ngày</span></div>
+                <div class="count-box"><strong id="hours">00</strong><span>Giờ</span></div>
+                <div class="count-box"><strong id="minutes">00</strong><span>Phút</span></div>
+                <div class="count-box"><strong id="seconds">00</strong><span>Giây</span></div>
+              </div>
+              <div class="count-callout">Chỉ 100 suất/lớp. Đủ chỗ sẽ đóng form và dừng nhận đăng ký.</div>
+              <a class="count-link" href="#dang-ky">Giữ chỗ ngay</a>
+            </div>
+            <div class="hero-value-card">
+              <div class="hero-value-top">
+                <div class="hero-value-title">
+                  <b>Đăng ký 03 buổi nhận trọn bộ thực hành</b>
+                  <span>Học để dùng, có đồ nghề để luyện ngay.</span>
+                </div>
+                <div class="hero-total"><small>Tổng giá trị</small><strong>2.860.000đ+</strong></div>
+              </div>
+              <ul class="hero-value-list">
+                <li>03 buổi Zoom trực tiếp cùng Dịch học sỹ Trần Thái Bình.</li>
+                <li>Bộ bài Dịch Lý 64 quẻ trị giá 860.000đ.</li>
+                <li>Tài liệu/framework đặt câu hỏi và luận tình huống.</li>
+                <li>Hướng đóng gói kỹ năng thành kênh tăng thu nhập.</li>
+              </ul>
+              <a class="hero-mini-cta" href="#dang-ky">Chốt quà tặng 860.000đ</a>
+            </div>
+            <div class="hero-visual" aria-label="Bộ bài Dịch Lý 64 quẻ">
+              <div class="aura"></div>
+              <div class="hero-deck">
+                <div class="hero-main-card"><img src="Image/image%20(2).png" alt="Bộ bài Dịch Lý 64 quẻ" loading="eager" fetchpriority="high" /></div>
+                <div class="hero-float-card hero-float-top"><img src="Image/image%20(4).png" alt="Lá bài Dịch Lý minh họa" loading="lazy" /></div>
+                <div class="hero-float-card hero-float-bottom"><img src="Image/image%20(5).png" alt="Lá bài Dịch Lý minh họa" loading="lazy" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="proof-row hero-proof">
+            <span class="proof">Host trực tiếp giảng</span>
+            <span class="proof">Tặng bộ bài 860K</span>
+            <span class="proof">Học xong dùng được ngay</span>
+          </div>
+          <p class="pain-line hero-pain">Sai một quyết định có thể mất vài tháng. Hãy có công cụ để tự soi trước khi chọn.</p>
+        </div>
+      </section>
+
+      <section class="section-tight">
+        <div class="container trust">
+          <div class="stat"><b>100</b><span>Suất/lớp để giữ nhịp thực hành và phản hồi case rõ hơn.</span></div>
+          <div class="stat"><b>03</b><span>Buổi Zoom trực tiếp: hiểu bộ bài, luận tình huống, đóng gói kỹ năng.</span></div>
+          <div class="stat"><b>860.000đ</b><span>Bộ bài Dịch Lý 64 quẻ tặng kèm cho học viên workshop.</span></div>
+          <div class="stat"><b>Host trực tiếp</b><span>Dịch học sỹ Trần Thái Bình giảng và dẫn thực hành.</span></div>
+        </div>
+        <div class="actions" style="justify-content:center;margin-top:22px;"><a class="btn btn-primary" href="#dang-ky">Giữ chỗ ngay & nhận bộ bài 860.000đ</a></div>
+      </section>
+
+      <section class="section">
+        <div class="container pain">
+          <div class="panel warning">
+            <div class="kicker">Vì sao nên đăng ký ngay?</div>
+            <h2>Một quyết định rõ hơn có thể giúp bạn tránh nhiều vòng lặp sai.</h2>
+            <p class="large">Khi đứng trước chuyện công việc, tiền bạc, hợp tác, tình cảm hoặc hướng đi mới, nhiều người đi hỏi khắp nơi. Nhưng càng hỏi càng rối nếu không có một hệ quy chiếu để tự nhìn lại tình huống.</p>
+            <p>Workshop này cho bạn một cách tiếp cận thực tế: đặt câu hỏi đúng, dùng bộ bài đúng mục đích, đọc tình thế và chuyển kết quả thành hành động.</p>
+          </div>
+          <div class="panel">
+            <h3>Đăng ký nếu bạn đang cần:</h3>
+            <ul class="list">
+              <li><strong>Tự dùng:</strong> soi rõ việc của mình trước quyết định quan trọng.</li>
+              <li><strong>Tư vấn:</strong> có phương pháp đọc tình huống và đặt câu hỏi tốt hơn.</li>
+              <li><strong>Tăng thu nhập:</strong> biết cách đóng gói kỹ năng thành nội dung hoặc buổi tư vấn.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="nhan-duoc-gi">
+        <div class="container">
+          <div class="head center">
+            <div class="kicker">Sau 03 buổi bạn nhận được gì?</div>
+            <h2>Bạn có bộ bài, có framework và biết cách thực hành.</h2>
+            <p>Đăng ký Workshop 03 buổi, nhận bộ bài Dịch Lý 64 quẻ trị giá 860.000đ, học xong biết dùng và biết cách mở thêm một kênh tăng thu nhập.</p>
+          </div>
+          <div class="grid3">
+            <div class="panel result"><div class="num">01</div><h3>Đặt câu hỏi đúng</h3><p>Biến việc mơ hồ thành câu hỏi rõ trước khi rút bài.</p></div>
+            <div class="panel result"><div class="num">02</div><h3>Đọc tình huống rõ hơn</h3><p>Dùng quái tượng, bối cảnh và framework để tránh đọc lan man.</p></div>
+            <div class="panel result"><div class="num">03</div><h3>Tự dùng bộ bài</h3><p>Ứng dụng cho công việc, hợp tác, định hướng và quyết định cá nhân.</p></div>
+            <div class="panel result"><div class="num">04</div><h3>Thực hành case thật</h3><p>Được hướng dẫn cách phân tích tình huống để tự luyện sau workshop.</p></div>
+            <div class="panel result"><div class="num">05</div><h3>Tư vấn có ranh giới</h3><p>Không hù dọa, không quyết thay, không thổi phồng kết quả.</p></div>
+            <div class="panel result"><div class="num">06</div><h3>Mở kênh tăng thu nhập</h3><p>Biết cách làm nội dung, tạo buổi tư vấn và định giá bước đầu.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="lo-trinh">
+        <div class="container">
+          <div class="head">
+            <div class="kicker">Lộ trình 03 buổi</div>
+            <h2>Mỗi buổi có một mục tiêu rõ ràng, không học lan man.</h2>
+            <p>Người mới đi từ hiểu bộ bài, thực hành luận tình huống thật, rồi biết cách đóng gói kỹ năng thành một kênh tạo thêm giá trị.</p>
+          </div>
+          <div class="timeline">
+            <div class="session"><div class="badge"><span>Buổi</span><b>1</b></div><div><h3>Hiểu bộ bài & cách đặt câu hỏi</h3><p>Nắm cấu trúc bộ bài Dịch Lý 64 quẻ, cách hỏi đúng và cách đọc tín hiệu cơ bản theo bối cảnh.</p></div></div>
+            <div class="session"><div class="badge"><span>Buổi</span><b>2</b></div><div><h3>Thực hành luận tình huống thật</h3><p>Luận công việc, tiền bạc, hợp tác, quan hệ và định hướng cá nhân; luyện cách tránh áp đặt kết luận.</p></div></div>
+            <div class="session"><div class="badge"><span>Buổi</span><b>3</b></div><div><h3>Đóng gói kỹ năng thành kênh tăng thu nhập</h3><p>Cách tạo gói tư vấn, làm nội dung, định giá bước đầu và giữ đạo đức khi ứng dụng Dịch Lý.</p></div></div>
+          </div>
+          <div class="actions" style="justify-content:center;margin-top:20px;"><a class="btn btn-primary" href="#dang-ky">Giữ chỗ ngay để vào lớp 03 buổi</a></div>
+        </div>
+      </section>
+
+      <section class="section" id="offer">
+        <div class="container offer">
+          <div class="price-card">
+            <div class="price-label">Workshop Zoom trực tiếp 03 buổi</div>
+            <div class="price">2.000.000đ</div>
+            <p>Học đủ 03 buổi thực hành, nhận bộ bài thật và có framework rõ để tự soi trước quyết định quan trọng.</p>
+            <div class="price-compare">
+              <span class="main-fee">Workshop 03 buổi: 2.000.000đ</span>
+              <span class="bonus-fee">Tặng bộ bài: 860.000đ</span>
+              <span>Chỉ dành cho học viên đăng ký workshop 03 buổi.</span>
+            </div>
+            <div class="bonus">Tặng bộ bài Dịch Lý 64 quẻ trị giá 860.000đ</div>
+            <ul class="value-stack">
+              <li><strong>Buổi 1:</strong> Hiểu bộ bài & cách đặt câu hỏi.</li>
+              <li><strong>Buổi 2:</strong> Thực hành luận tình huống thật.</li>
+              <li><strong>Buổi 3:</strong> Đóng gói kỹ năng thành kênh tăng thu nhập.</li>
+              <li><strong>Bộ bài Dịch Lý 64 quẻ</strong> trị giá 860.000đ.</li>
+              <li><strong>Tài liệu/framework</strong> để luyện sau từng buổi.</li>
+            </ul>
+            <p class="offer-note">Quà tặng chỉ áp dụng cho học viên đăng ký Workshop 03 buổi.</p>
+            <div class="actions"><a class="btn btn-primary" href="#dang-ky">Giữ chỗ ngay & chốt quà tặng 860.000đ</a></div>
+            <p class="cta-urgency">Ưu tiên đăng ký sớm để không mất suất khi đủ 100 học viên.</p>
+          </div>
+          <div>
+            <div class="kicker">Vì sao gói này đáng đăng ký?</div>
+            <h2>Một gói học đủ phương pháp, thực hành và đồ nghề.</h2>
+            <p class="large">Đăng ký Workshop 03 buổi, nhận bộ bài Dịch Lý 64 quẻ trị giá 860.000đ, học xong biết dùng và biết cách mở thêm một kênh tăng thu nhập.</p>
+            <ul class="list">
+              <li><strong>Rõ kết quả:</strong> biết dùng bộ bài cho bản thân và quyết định cá nhân.</li>
+              <li><strong>Rõ thực hành:</strong> host trực tiếp giảng, giải case và hướng dẫn từng bước.</li>
+              <li><strong>Rõ hướng phát triển:</strong> biết cách đóng gói kỹ năng thành nội dung hoặc buổi tư vấn.</li>
+            </ul>
+            <div class="actions"><a class="btn btn-secondary" href="#dang-ky">Xác nhận suất trước khi đóng form</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlight-gallery">
+        <div class="container gallery">
+          <div class="gmain"><img src="Image/image%20(2).png" alt="Mẫu bộ bài Dịch Lý quẻ 23 và quẻ 24" loading="lazy" /></div>
+          <div class="gside"><img src="Image/image%20(4).png" alt="Mẫu bộ bài Dịch Lý quẻ 11 và quẻ 12" loading="lazy" /><img src="Image/image%20(5).png" alt="Mẫu bộ bài Dịch Lý quẻ 51 và quẻ 52" loading="lazy" /></div>
+        </div>
+      </section>
+
+      <section class="section" id="host">
+        <div class="container host">
+          <div class="host-photo">
+            <img src="Image/image%20(3).png" alt="Dịch học sỹ Trần Thái Bình" loading="lazy" />
+            <div class="org">
+              <div class="social-preview">
+                <div class="follow-chip">TikTok Trần Gia Phong Thuỷ · 67K Follow</div>
+                <img src="Image/image%20(6).png" alt="Kênh TikTok Trần Gia Phong Thuỷ" loading="lazy" />
+              </div>
+              <p><strong>Đơn vị triển khai:</strong> Trần Gia Phong Thuỷ – hệ thống nội dung Dịch Lý, Phong Thuỷ và cộng đồng học ứng dụng theo tinh thần dễ hiểu, gần gũi, thực tế.</p>
+            </div>
+          </div>
+          <div>
+            <div class="kicker">Giảng viên chuyên môn</div>
+            <h2>Dịch học sỹ Trần Thái Bình</h2>
+            <p class="large">Host trực tiếp của Workshop Bài Dịch Lý 64 Quẻ, dẫn người học đi từ nền tảng đến thực hành theo cách rõ ràng, có ví dụ và có ranh giới ứng dụng.</p>
+            <p>Nội dung được hệ thống theo lộ trình: hiểu Âm Dương, Bát Quái, 64 quẻ kép, rồi học cách lập – đọc – luận quẻ để ứng dụng vào đời sống và công việc.</p>
+            <div class="host-stats">
+              <div><b>Host</b><span>Trực tiếp giảng và dẫn thực hành trên Zoom</span></div>
+              <div><b>64</b><span>Quẻ kép được hệ thống hoá để học viên dễ nắm</span></div>
+              <div><b>Ứng dụng</b><span>Học để dùng, không học để lệ thuộc vào lời phán</span></div>
+            </div>
+            <ul class="list">
+              <li><strong>Chuyên môn:</strong> Dịch Lý Việt Nam, Âm Dương, Bát Quái, 64 quẻ kép, phương pháp lập và luận quẻ.</li>
+              <li><strong>Phong cách:</strong> giảng theo hệ thống, lấy ví dụ, giúp người mới có điểm bám rõ.</li>
+              <li><strong>Mục tiêu:</strong> để học viên hiểu bộ bài, thực hành được và biết cách tạo giá trị từ kỹ năng này.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="head center">
+            <div class="kicker">Niềm tin trước khi đăng ký</div>
+            <h2>3 lý do để đăng ký mà không cần lời hứa quá đà.</h2>
+            <p>Workshop tập trung vào năng lực thật: bắt đầu được, có đồ nghề để luyện và có hướng tạo thêm giá trị sau khi học.</p>
+          </div>
+          <div class="grid3">
+            <div class="panel review"><div class="stars">01</div><div class="rtop"><div class="initial">M</div><div><b>Người mới vẫn theo được</b><span>Bắt đầu từ câu hỏi đúng</span></div></div><p>Không cần học thuộc 64 quẻ ngay từ đầu. Bạn đi từ cách hỏi, cách nhìn quái tượng và cách đọc bối cảnh.</p></div>
+            <div class="panel review"><div class="stars">02</div><div class="rtop"><div class="initial">B</div><div><b>Có bộ bài để luyện ngay</b><span>Quà tặng trị giá 860.000đ</span></div></div><p>Bộ bài và framework giúp bạn thực hành sau từng buổi, thay vì chỉ nghe lý thuyết rồi để đó.</p></div>
+            <div class="panel review"><div class="stars">03</div><div class="rtop"><div class="initial">T</div><div><b>Có hướng tạo thu nhập</b><span>Không hứa làm giàu nhanh</span></div></div><p>Buổi 3 hướng dẫn cách đóng gói kỹ năng thành nội dung hoặc buổi tư vấn một cách có trách nhiệm.</p></div>
+          </div>
+          <div class="actions" style="justify-content:center;margin-top:20px;"><a class="btn btn-primary" href="#dang-ky">Giữ chỗ ngay & nhận bộ bài 860.000đ</a></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container grid2">
+          <div class="panel"><div class="kicker">Workshop phù hợp nếu</div><h2>Bạn muốn học nghiêm túc và dùng được thật.</h2><ul class="list"><li>Muốn có công cụ tự vấn trước quyết định quan trọng.</li><li>Muốn học Dịch Lý theo cách dễ cầm, dễ hiểu, dễ thực hành.</li><li>Muốn phát triển thêm kỹ năng tư vấn hoặc nghề tay trái.</li><li>Muốn nhận bộ bài và framework để luyện sau Workshop.</li></ul></div>
+          <div class="panel warning"><div class="kicker">Không phù hợp nếu</div><h2>Bạn chỉ muốn nghe phán hoặc săn quà.</h2><ul class="list no"><li>Muốn câu trả lời tuyệt đối 100% cho mọi quyết định.</li><li>Chỉ muốn nhận bộ bài nhưng không muốn học và thực hành.</li><li>Muốn kiếm tiền nhanh mà không cần luyện kỹ năng và xây niềm tin.</li><li>Muốn dùng huyền học để hù dọa hoặc ép khách mua dịch vụ.</li></ul><div class="actions"><a class="btn btn-secondary" href="#dang-ky">Nếu phù hợp, đăng ký hôm nay</a></div></div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="head center"><div class="kicker">Câu hỏi thường gặp</div><h2>Trả lời nhanh các phản đối chính trước khi đăng ký.</h2></div>
+          <details open><summary>Người mới học được không?</summary><p>Có. Workshop đi từ cách đặt câu hỏi, cách nhìn quẻ và cách đọc tình huống trước khi thực hành case.</p></details>
+          <details><summary>Không có “căn” học được không?</summary><p>Được. Bộ bài được dùng như công cụ tự vấn và đọc tình huống, không yêu cầu khả năng đặc biệt.</p></details>
+          <details><summary>Bộ bài tặng cho ai?</summary><p>Bộ bài Dịch Lý 64 quẻ trị giá 860.000đ chỉ dành cho học viên đăng ký Workshop 03 buổi.</p></details>
+          <details><summary>Có kiếm tiền ngay không?</summary><p>Không hứa kiếm tiền ngay. Buổi 3 hướng dẫn cách đóng gói kỹ năng thành nội dung hoặc buổi tư vấn; kết quả phụ thuộc vào luyện tập và cách bạn xây niềm tin.</p></details>
+          <details><summary>Nhận link ở đâu?</summary><p>Điền form xong, bạn vào nhóm Zalo để nhận nhắc lịch, link Zoom, hướng dẫn chuẩn bị và xác nhận giữ chỗ.</p></details>
+        </div>
+      </section>
+
+      <section class="section" id="dang-ky">
+        <div class="container register">
+          <div>
+            <div class="kicker">Đăng ký giữ chỗ</div>
+            <h2>Đăng ký Workshop Bài Dịch Lý 64 Quẻ – 03 buổi thực hành.</h2>
+            <p class="large">Giữ chỗ hôm nay để nhận bộ bài Dịch Lý 64 quẻ trị giá 860.000đ, vào nhóm Zalo và nhận hướng dẫn chuẩn bị trước buổi học.</p>
+            <div class="rinfo">
+              <div class="info"><b>Lịch Workshop: Tối Thứ 6, 22/05/2026 · 20:00</b><span>Vào nhóm Zalo để nhận link Zoom, nhắc lịch và hướng dẫn chuẩn bị.</span></div>
+              <div class="info"><b>Học phí Workshop 03 buổi: 2.000.000đ</b><span>Gồm 03 buổi thực hành trực tiếp và tài liệu/framework để luyện sau từng buổi.</span></div>
+              <div class="info"><b>Quà tặng: Bộ bài Dịch Lý 64 quẻ trị giá 860.000đ</b><span>Chỉ dành cho học viên đăng ký Workshop 03 buổi.</span></div>
+            </div>
+            <div class="qr"><img src="Image/image%20(7).png" alt="QR nhóm Zalo Workshop Bài Dịch Lý 64 Quẻ" loading="lazy" /><div><h3>Vào nhóm Zalo để xác nhận suất</h3><p>Form giúp lưu thông tin. Zalo là nơi nhận link Zoom, nhắc lịch và cập nhật tình trạng giữ chỗ.</p><a class="btn btn-secondary" href="https://zalo.me/g/metc8pjimofspkcynl0k" target="_blank" rel="noopener">Vào nhóm Zalo</a></div></div>
+          </div>
+          <form id="leadForm">
+            <div class="field"><label for="name">Họ và tên</label><input id="name" name="name" type="text" placeholder="Ví dụ: Nguyễn Anh Minh" required /></div>
+            <div class="field"><label for="phone">Số điện thoại / Zalo</label><input id="phone" name="phone" type="tel" placeholder="Ví dụ: 09xx xxx xxx" required /></div>
+            <div class="field"><label for="goal">Bạn muốn nhất điều gì sau Workshop?</label><select id="goal" name="goal" required><option value="">Chọn một mục</option><option>Biết dùng bộ bài cho bản thân</option><option>Biết luận tình huống công việc / tiền bạc / hợp tác</option><option>Biết mở thêm nghề tay trái / kênh tăng thu nhập</option><option>Muốn được tư vấn xem có phù hợp không</option></select></div>
+            <div class="field"><label for="note">Câu hỏi bạn muốn được giải đáp</label><textarea id="note" name="note" placeholder="Ghi ngắn gọn vấn đề bạn đang quan tâm..."></textarea></div>
+            <div class="actions form-actions"><button class="btn btn-primary" type="submit">Giữ chỗ ngay & nhận bộ bài 860.000đ</button><a class="btn btn-secondary" href="https://zalo.me/g/metc8pjimofspkcynl0k" target="_blank" rel="noopener">Vào Zalo để xác nhận suất</a></div>
+            <p class="cta-urgency">Chỉ 100 suất/lớp. Đủ chỗ sẽ đóng form.</p>
+            <div class="success" id="successBox">Đã ghi nhận thông tin. Vui lòng vào nhóm Zalo để nhận nhắc lịch, link tham gia và xác nhận giữ chỗ.</div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container final">
+          <div class="kicker">Chốt trước khi hết suất</div>
+          <h2>Đừng chỉ tò mò về Dịch Lý. Hãy bắt đầu bằng một phương pháp rõ ràng và một bộ bài có thể cầm lên thực hành.</h2>
+          <p>Đăng ký Workshop 03 buổi, nhận bộ bài Dịch Lý 64 quẻ trị giá 860.000đ, học xong biết dùng và biết cách mở thêm một kênh tăng thu nhập.</p>
+          <div class="actions" style="justify-content:center;"><a class="btn btn-primary" href="#dang-ky">Giữ chỗ ngay & nhận bộ bài 860.000đ</a><a class="btn btn-secondary" href="https://zalo.me/g/metc8pjimofspkcynl0k" target="_blank" rel="noopener">Vào Zalo để chốt suất</a></div>
+          <p class="cta-urgency" style="margin-top:4px;">Khi đủ 100 suất, form sẽ đóng để đảm bảo chất lượng lớp.</p>
+        </div>
+      </section>
+    </main>
+
+    <div class="float" id="floatingCta"><span id="miniCount">Còn -- ngày</span><a class="btn btn-primary" href="#dang-ky">Giữ chỗ ngay & nhận bộ bài 860.000đ</a></div>
+    <footer><div class="container">© 2026 Trần Gia Phong Thuỷ · Workshop Bài Dịch Lý 64 Quẻ · Zalo nhận thông tin: zalo.me/g/metc8pjimofspkcynl0k</div></footer>
+  </div>
+
+  <script>
+    const CONFIG = { zaloGroupUrl: "https://zalo.me/g/metc8pjimofspkcynl0k", formEndpoint: "" };
+    const targetDate = new Date("2026-05-22T20:00:00+07:00");
+    const pad = (num) => String(num).padStart(2, "0");
+    function updateCountdown() {
+      const now = new Date();
+      let diff = targetDate - now;
+      const mini = document.getElementById("miniCount");
+      const badge = document.querySelector(".count-badge");
+      const secondsBox = document.getElementById("seconds")?.closest(".count-box");
+      if (diff <= 0) {
+        ["days","hours","minutes","seconds"].forEach(id => { const node = document.getElementById(id); if (node) node.textContent = "00"; });
+        if (mini) mini.textContent = "Workshop đã đến giờ";
+        if (badge) {
+          badge.textContent = "Đã đến giờ";
+          badge.classList.add("is-ended");
+        }
+        return;
+      }
+      if (badge) {
+        badge.textContent = "Đang nhận giữ chỗ";
+        badge.classList.remove("is-ended");
+      }
+      const days = Math.floor(diff / (1000*60*60*24)); diff -= days*1000*60*60*24;
+      const hours = Math.floor(diff / (1000*60*60)); diff -= hours*1000*60*60;
+      const minutes = Math.floor(diff / (1000*60)); diff -= minutes*1000*60;
+      const seconds = Math.floor(diff / 1000);
+      const map = { days, hours, minutes, seconds };
+      Object.entries(map).forEach(([id,value]) => { const node = document.getElementById(id); if (node) node.textContent = id === "days" ? String(value).padStart(2,"0") : pad(value); });
+      if (mini) mini.textContent = `Còn ${days} ngày ${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+      if (secondsBox) {
+        secondsBox.classList.remove("is-pulse");
+        void secondsBox.offsetWidth;
+        secondsBox.classList.add("is-pulse");
+      }
+    }
+    updateCountdown(); setInterval(updateCountdown, 1000);
+    const floating = document.getElementById("floatingCta");
+    const toggleFloating = () => {
+      if (!floating) return;
+      const isMobile = window.matchMedia("(max-width: 720px)").matches;
+      floating.style.display = isMobile || window.scrollY > 280 ? "flex" : "none";
+    };
+    window.addEventListener("scroll", toggleFloating);
+    window.addEventListener("resize", toggleFloating);
+    toggleFloating();
+    const nav = document.getElementById("nav"); const menuBtn = document.getElementById("menuBtn");
+    if (nav && menuBtn) menuBtn.addEventListener("click", () => nav.classList.toggle("open"));
+    document.querySelectorAll(".links a").forEach(a => a.addEventListener("click", () => { if (nav) nav.classList.remove("open"); }));
+    const revealTargets = document.querySelectorAll(".hero-grid, .trust .stat, .pain .panel, #nhan-duoc-gi .panel, .timeline .session, #offer .offer, .gallery .gmain, .gallery .gside, #host .host-photo, #host .host > div:last-child, #faq details, #dang-ky .register > div, #leadForm, .final");
+    revealTargets.forEach((el, idx) => { el.classList.add("reveal"); el.style.setProperty("--d", `${Math.min(idx * 55, 440)}ms`); });
+    if ("IntersectionObserver" in window) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add("show"); io.unobserve(entry.target); } });
+      }, { threshold: 0.16, rootMargin: "0px 0px -8% 0px" });
+      revealTargets.forEach((el) => io.observe(el));
+    } else {
+      revealTargets.forEach((el) => el.classList.add("show"));
+    }
+    const form = document.getElementById("leadForm"); const success = document.getElementById("successBox");
+    if (form) form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const payload = { ...Object.fromEntries(new FormData(form).entries()), source: "Workshop Bai Dich Ly 64 Que", submittedAt: new Date().toISOString() };
+      try {
+        const leads = JSON.parse(localStorage.getItem("dichLyWorkshopLeads") || "[]");
+        leads.push(payload); localStorage.setItem("dichLyWorkshopLeads", JSON.stringify(leads));
+        if (CONFIG.formEndpoint) {
+          await fetch(CONFIG.formEndpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+        }
+      } catch (error) { console.warn("Lead save error:", error); }
+      if (success) success.classList.add("show");
+      const submitButton = form.querySelector("button[type='submit']");
+      if (submitButton) submitButton.textContent = "Đã giữ chỗ - mở Zalo để xác nhận";
+      window.open(CONFIG.zaloGroupUrl, "_blank", "noopener");
+    });
+  </script>
+</body>
+</html>
