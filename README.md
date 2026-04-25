@@ -4,7 +4,7 @@ Project này là landing page cho chiến dịch đăng ký **Workshop Bài Dị
 
 File chính đang dùng:
 
-- `6index.html`
+- `index.html`
 
 ## Thông Tin Chiến Dịch
 
